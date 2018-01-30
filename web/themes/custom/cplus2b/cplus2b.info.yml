@@ -1,0 +1,14 @@
+name: cplus2b
+type: theme
+base theme: classy
+
+Description: "Theme website cplus2b"
+package: custom
+core: 8.x
+
+regions:
+      headline: headline
+      header: header
+      content: content
+      sidebar: sidebar
+      footer: Footer 
