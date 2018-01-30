@@ -1,0 +1,10 @@
+uuid: a2c33016-7508-41c3-b81b-6eda6629eecb
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.token
+label: 'Jeton (token)'
+targetEntityType: menu_link_content
+cache: true
