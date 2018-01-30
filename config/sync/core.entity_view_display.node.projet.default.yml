@@ -1,0 +1,28 @@
+uuid: de96be39-7b6d-4e89-95bf-22ae43470e90
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.projet.body
+    - node.type.projet
+  module:
+    - text
+    - user
+id: node.projet.default
+targetEntityType: node
+bundle: projet
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  langcode: true
