@@ -1,3 +1,11 @@
 @import 'global/variables.scss';
 @import 'components/header.scss';
+@import 'components/news.scss';
 @import 'components/footer.scss';
+
+
+
+/** suppression de "sabonner" sur la page de base **/
+.feed-icons{
+	display: none;
+}
