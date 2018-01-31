@@ -1,0 +1,20 @@
+uuid: e03a6754-51d4-4237-b3f2-f4c65d71a05a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cplus2b
+id: mainpagecontent
+theme: cplus2b
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
