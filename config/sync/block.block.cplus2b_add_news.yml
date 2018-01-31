@@ -1,0 +1,25 @@
+uuid: 83667760-c81f-4c52-b4c6-f4b29e7b9f10
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:df8c7f18-d6ba-41ef-a7f1-96769b6d2750'
+  module:
+    - block_content
+  theme:
+    - cplus2b
+id: cplus2b_add_news
+theme: cplus2b
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:df8c7f18-d6ba-41ef-a7f1-96769b6d2750'
+settings:
+  id: 'block_content:df8c7f18-d6ba-41ef-a7f1-96769b6d2750'
+  label: cplus2b_add_news
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,39 @@
+uuid: 31aad366-aa02-407a-b4da-4ab18df275db
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.news
+    - field.field.block_content.news.body
+  module:
+    - text
+id: block_content.news.default
+targetEntityType: block_content
+bundle: news
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

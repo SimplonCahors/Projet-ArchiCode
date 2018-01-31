@@ -1,0 +1,23 @@
+uuid: 7faa4025-37ec-463e-ad75-0b2f1f51b105
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.news
+    - field.field.block_content.news.body
+  module:
+    - text
+id: block_content.news.default
+targetEntityType: block_content
+bundle: news
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,8 @@
+uuid: d7140eaa-5457-450d-a8e7-8cbd7b817258
+langcode: fr
+status: true
+dependencies: {  }
+id: news
+label: news
+revision: 0
+description: 'card news'
