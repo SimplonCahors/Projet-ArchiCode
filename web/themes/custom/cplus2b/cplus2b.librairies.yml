@@ -1,6 +1,0 @@
-global-styling:
-   version: VERSION
-   css:
-     theme:
-       includes/bootstrap/css/bootstrap.css: {}
-       css/style.css: {} 
