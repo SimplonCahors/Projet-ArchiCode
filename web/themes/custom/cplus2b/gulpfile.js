@@ -27,10 +27,6 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('dist/css')) /* necessaire pour refresh avec browser-sync **/
 });
  
-gulp.task('sass:watch', function () {
-  gulp.watch('assets/scss/*.scss', ['sass']);
-});
-
 
 /***** Js opti *****/
 
