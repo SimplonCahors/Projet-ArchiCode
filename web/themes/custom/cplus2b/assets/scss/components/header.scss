@@ -38,13 +38,14 @@
 }
 
 // pour enlever le background de is-active
-body.toolbar-tray-open.toolbar-horizontal.toolbar-fixed.user-logged-in.path-node.page-node-type-page.has-glyphicons header#navbar.navbar.navbar-default.container div.navbar-header div.region.region-navigation nav#block-navigationprincipale.contextual-region ul.menu.menu--main.nav.navbar-nav li.active a.is-active{
+html.js body.path-node.page-node-type-page.has-glyphicons header#navbar.navbar.navbar-default.container div.navbar-header div.region.region-navigation nav#block-navigationprincipale ul.menu.menu--main.nav.navbar-nav li.active a.is-active{
 	background: none;
 	color: $color3;
 	border-bottom: 1px solid $color3;
 	// background-color: $color1;
 	transition: 0.5s;
 }
+
 
 
 
