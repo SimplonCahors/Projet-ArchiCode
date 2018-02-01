@@ -1,22 +1,22 @@
-uuid: 83667760-c81f-4c52-b4c6-f4b29e7b9f10
+uuid: 9f397d3c-759e-45f0-a8b3-c050756cc05c
 langcode: fr
 status: true
 dependencies:
   content:
-    - 'block_content:basic:df8c7f18-d6ba-41ef-a7f1-96769b6d2750'
+    - 'block_content:basic:835830c4-cc8a-4121-91c1-6d267c58867d'
   module:
     - block_content
   theme:
     - cplus2b
-id: cplus2b_add_news
+id: cplus2b_card_2
 theme: cplus2b
 region: content
 weight: 0
 provider: null
-plugin: 'block_content:df8c7f18-d6ba-41ef-a7f1-96769b6d2750'
+plugin: 'block_content:835830c4-cc8a-4121-91c1-6d267c58867d'
 settings:
-  id: 'block_content:df8c7f18-d6ba-41ef-a7f1-96769b6d2750'
-  label: cplus2b_add_news
+  id: 'block_content:835830c4-cc8a-4121-91c1-6d267c58867d'
+  label: cplus2b_card
   provider: block_content
   label_display: '0'
   status: true

@@ -1,3 +1,16 @@
+// Default variables.
+@import "default-variables";
+
+// Bootstrap Framework.
+@import '../../bootstrap/assets/stylesheets/bootstrap';
+
+// Base-theme overrides.
+@import 'overrides';
+
+
+
+// C+2B theme .
+
 @import 'global/variables.scss';
 @import 'components/header.scss';
 @import 'components/news.scss';
