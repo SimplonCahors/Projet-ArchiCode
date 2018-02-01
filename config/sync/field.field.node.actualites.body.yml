@@ -1,0 +1,22 @@
+uuid: bdb23be1-02bc-43b4-9c7a-3254f814b836
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.actualites
+  module:
+    - text
+id: node.actualites.body
+field_name: body
+entity_type: node
+bundle: actualites
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
