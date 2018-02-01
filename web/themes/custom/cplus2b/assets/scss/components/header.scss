@@ -1,21 +1,30 @@
-header{
-	display: flex;
-	justify-content: flex-end;
+.navbar-header{
+	width: 100%;
+	background: white;
+	margin-top: 50px;
 }
 
-header ul{
+.region.region-navigation{
 	display: flex;
-	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+	flex-direction: row-reverse;
 }
 
-header ul a{
-	font-family: $font;
+.menu.menu--main.nav.navbar-nav a{
+	font-family: $font;	
+	height: 40px;
+	margin-left: 50px;
+	padding-left: 0;
+	padding-right: 0;
+	font-weight: $bold;
 	color: $color1;
 }
 
-header ul a:hover{
-	color: $color2;
-	background-color: $color1 !important;
+.menu.menu--main.nav.navbar-nav a:hover{
+	color: $color3;
+	border-bottom: 1px solid $color3;
+	// background-color: $color1;
 	transition: 0.5s;
 }
 

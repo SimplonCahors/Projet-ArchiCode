@@ -1,0 +1,24 @@
+uuid: 2b3b4dd5-ef42-4e14-9f50-82817146ff9b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - cplus2b
+id: navigationprincipale
+theme: cplus2b
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 84740d3a-4015-4bb5-822a-fb2a738f352c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cplus2b
+id: sitebranding
+theme: cplus2b
+region: navigation
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }
