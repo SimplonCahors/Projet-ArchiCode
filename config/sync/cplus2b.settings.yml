@@ -9,11 +9,11 @@ schemas:
 features:
   comment_user_picture: 1
   comment_user_verification: 1
-  favicon: 1
+  favicon: 0
   node_user_picture: 1
 logo:
   path: 'public://identity_0.png'
   url: ''
-  use_default: 0
+  use_default: 1
 table_responsive: '-1'
 table: ''
