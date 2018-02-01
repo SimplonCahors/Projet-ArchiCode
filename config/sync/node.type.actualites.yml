@@ -1,0 +1,18 @@
+uuid: d0144f8d-a356-4a21-8422-ea4cff23e0f4
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Actualités
+type: actualites
+description: 'Ajouter une actualité'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
