@@ -26,6 +26,7 @@
         "drupal/geofield_map": "^1.31",
         "drupal/google_analytics": "^2.2",
         "drupal/honeypot": "^1.27",
+        "drupal/masonry": "^1.0@RC",
         "drupal/masonry_views": "^1.0@RC",
         "drupal/metatag": "^1.4",
         "drupal/pathauto": "^1.0",
