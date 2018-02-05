@@ -4,10 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.node.actualites.body
+    - field.field.node.actualites.field_date
     - field.field.node.actualites.field_news_image
+    - field.field.node.actualites.field_titre
+    - field.field.node.actualites.field_titre_actu
     - image.style.thumbnail
     - node.type.actualites
   module:
+    - datetime
     - image
     - path
     - text
@@ -31,6 +35,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_date:
+    weight: 123
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
   field_news_image:
     weight: 122
     settings:
@@ -38,6 +48,22 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_titre:
+    weight: 124
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_titre_actu:
+    weight: 125
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   langcode:
     type: language_select

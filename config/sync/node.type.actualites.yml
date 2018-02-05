@@ -9,7 +9,7 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Actualités
+name: Actualité
 type: actualites
 description: 'Ajouter une actualité'
 help: ''

@@ -1,0 +1,19 @@
+uuid: 24fee709-bed8-4f55-86ce-71444e8372ae
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titre_actu
+    - node.type.actualites
+id: node.actualites.field_titre_actu
+field_name: field_titre_actu
+entity_type: node
+bundle: actualites
+label: 'Titre actu'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
