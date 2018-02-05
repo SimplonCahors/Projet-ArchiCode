@@ -1,0 +1,8 @@
+uuid: 9e180439-61d6-4e66-808f-cae2a9b4b94d
+langcode: fr
+status: true
+dependencies: {  }
+id: menu-projets
+label: 'Menu projets'
+description: 'Gestion du sous menu dans la page Projets'
+locked: false

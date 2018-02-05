@@ -4,27 +4,28 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.projet.body
+    - field.field.node.projet.field_image
+    - field.field.node.projet.field_texte
     - node.type.projet
   module:
-    - text
+    - image
     - user
 id: node.projet.teaser
 targetEntityType: node
 bundle: projet
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
+  field_image:
+    type: image
+    weight: 0
+    region: content
+    label: above
     settings:
-      trim_length: 600
+      image_style: ''
+      image_link: content
     third_party_settings: {  }
-    region: content
-  links:
-    weight: 100
-    region: content
 hidden:
   addtoany: true
+  field_texte: true
   langcode: true
+  links: true

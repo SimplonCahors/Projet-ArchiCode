@@ -1,0 +1,21 @@
+uuid: bb2351ce-db3d-47e1-9fbb-d23d9be4565d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.actualites
+  module:
+    - datetime
+id: node.actualites.field_date
+field_name: field_date
+entity_type: node
+bundle: actualites
+label: Date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

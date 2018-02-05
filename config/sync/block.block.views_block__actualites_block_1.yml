@@ -1,0 +1,30 @@
+uuid: 78fd7777-6c7d-412e-9f10-fad0a152567d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.actualites
+  module:
+    - system
+    - views
+  theme:
+    - cplus2b
+id: views_block__actualites_block_1
+theme: cplus2b
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:actualites-block_1'
+settings:
+  id: 'views_block:actualites-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /actu
+    negate: false
+    context_mapping: {  }

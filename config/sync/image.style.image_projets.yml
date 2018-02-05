@@ -1,0 +1,14 @@
+uuid: 69826501-572d-41d6-a0d0-ffac490a87c4
+langcode: fr
+status: true
+dependencies: {  }
+name: image_projets
+label: 'image projets'
+effects:
+  8e61c19f-21e4-4d50-a353-9bc976caa5a8:
+    uuid: 8e61c19f-21e4-4d50-a353-9bc976caa5a8
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 300
+      height: 300
