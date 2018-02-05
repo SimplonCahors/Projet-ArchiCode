@@ -15,7 +15,7 @@
 @import 'components/header.scss';
 @import 'components/news.scss';
 @import 'components/footer.scss';
-
+@import 'components/projet.scss';
 
 
 /** suppression de "sabonner" sur la page de base **/
@@ -38,6 +38,5 @@ body{
 
 .grid-actu{
 	display: flex;
-
-
 }
+

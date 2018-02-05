@@ -4,9 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.node.actualites.body
+    - field.field.node.actualites.field_categorie
     - field.field.node.actualites.field_date
     - field.field.node.actualites.field_news_image
-    - field.field.node.actualites.field_titre
     - field.field.node.actualites.field_titre_actu
     - image.style.thumbnail
     - node.type.actualites
@@ -35,6 +35,15 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_categorie:
+    weight: 126
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_date:
     weight: 123
     settings: {  }
@@ -48,14 +57,6 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
-    region: content
-  field_titre:
-    weight: 124
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
     region: content
   field_titre_actu:
     weight: 125

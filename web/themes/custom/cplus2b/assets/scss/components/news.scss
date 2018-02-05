@@ -1,8 +1,37 @@
-.region.region-content{
-	display:flex;
-	flex-direction: row;
-	flex-wrap:wrap;
-	justify-conten:space-between;
+div#masonry .view-content {
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	-ms-flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 150vw;
+	margin-top:50px;
+}
+div#masonry img {
+	width: 100%;
+	transition: .8s opacity;
+
+}
+
+div.items {
+	width:45%;
+	margin: 5px;
 }
 
 
+div.field--name-field-titre-actu{
+	// background: pink;
+	text-align:right;
+	width:50%;
+}
+
+div.field--name-field-date{
+	// background:red;
+	width:50%;
+}
+
+.machin{
+	display:flex;
+	flex-direction:row;
+}

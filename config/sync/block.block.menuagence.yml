@@ -11,7 +11,7 @@ dependencies:
 id: menuagence
 theme: cplus2b
 region: header
-weight: 0
+weight: -2
 provider: null
 plugin: 'system_menu_block:menu-agence'
 settings:
@@ -24,6 +24,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /agence
+    pages: "/agence\r\n/apropos\r\n/equipe\r\n/references\r\n/distinctions"
     negate: false
     context_mapping: {  }

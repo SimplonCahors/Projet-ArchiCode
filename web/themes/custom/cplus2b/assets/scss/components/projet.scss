@@ -1,0 +1,17 @@
+a.titre-projet{
+	background: rgba(255,255,255,0.6);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: $color1;
+	opacity: 0;
+	text-decoration: none;
+}
+
+a.titre-projet:hover{
+	opacity:1;
+	transition: 0.5s;
+}

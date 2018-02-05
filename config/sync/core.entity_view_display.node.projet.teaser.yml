@@ -6,7 +6,6 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.projet.field_image
     - field.field.node.projet.field_texte
-    - image.style.image_projets
     - node.type.projet
   module:
     - image
@@ -22,7 +21,7 @@ content:
     region: content
     label: hidden
     settings:
-      image_style: image_projets
+      image_style: ''
       image_link: content
     third_party_settings: {  }
 hidden:

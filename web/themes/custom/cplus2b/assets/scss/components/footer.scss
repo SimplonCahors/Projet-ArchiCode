@@ -1,7 +1,5 @@
 footer{
 	// background: yellow;
-	display: flex;
-	justify-content: center;
 }	
 
 .menu.menu--footer.nav a{
@@ -9,5 +7,7 @@ footer{
 }
 
 .footer.container{
+	display: flex;
+	justify-content: center;
 	border-top: 1px solid $color3;
 }
