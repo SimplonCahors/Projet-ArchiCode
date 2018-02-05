@@ -25,6 +25,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /actu
+    pages: /actualites
     negate: false
     context_mapping: {  }

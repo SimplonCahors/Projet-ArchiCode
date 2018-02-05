@@ -1,0 +1,22 @@
+uuid: a24b9d5d-0fcb-4f04-93f7-52b355d012b7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: actualites
+label: Actualités
+type: 'canonical_entities:node'
+pattern: 'actualites/[node:title]'
+selection_criteria:
+  33013baa-41c4-4ced-b24e-e5770f6860fe:
+    id: node_type
+    bundles:
+      actualites: actualites
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 33013baa-41c4-4ced-b24e-e5770f6860fe
+selection_logic: and
+weight: -5
+relationships: {  }
