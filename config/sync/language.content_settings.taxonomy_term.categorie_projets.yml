@@ -1,0 +1,11 @@
+uuid: e3f2dfce-cb19-4c17-b655-43651912e0ce
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categorie_projets
+id: taxonomy_term.categorie_projets
+target_entity_type_id: taxonomy_term
+target_bundle: categorie_projets
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,9 @@
+uuid: 33caff79-836a-4bf4-9d35-a8dd6acb68c9
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Catégorie Projets'
+vid: categorie_projets
+description: ''
+hierarchy: 0
+weight: 0
