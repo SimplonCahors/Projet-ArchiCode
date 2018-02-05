@@ -74,7 +74,7 @@ display:
           automatic_width: true
           alignment: horizontal
           col_class_default: true
-          col_class_custom: grid-actu
+          col_class_custom: ''
           row_class_default: true
           row_class_custom: ''
       row:

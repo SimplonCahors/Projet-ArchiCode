@@ -35,7 +35,7 @@ content:
     label: above
     settings:
       image_style: ''
-      image_link: ''
+      image_link: content
     third_party_settings: {  }
   field_titre:
     type: string
