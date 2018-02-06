@@ -1,0 +1,25 @@
+// image
+.field.field--name-field-image-.field--type-image.field--label-hidden.field--item img{
+	width:100%;
+	margin-bottom: 20px;
+}
+
+//bloc gauche
+.field.field--name-field-bloc-.field--type-text-long.field--label-hidden.field--item p{
+	width: 70%;
+}
+
+//bloc droit paragraphe
+.field.field--name-field-bloc-droit.field--type-text-long.field--label-hidden.field--item p{
+	text-align: right;
+}
+
+//bloc droit
+.field.field--name-field-bloc-droit.field--type-text-long.field--label-hidden.field--item{
+	width:40%;
+}
+
+.deuxblocs{
+	display:flex;
+	justify-content:space-between;
+}

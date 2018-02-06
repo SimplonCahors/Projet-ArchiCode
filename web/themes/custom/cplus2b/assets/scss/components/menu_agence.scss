@@ -1,0 +1,20 @@
+.menu.menu--menu-agence.nav{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.menu.menu--menu-agence.nav a{
+	font-family: $font;	
+	color: $color1;
+	height: 40px;
+	margin-right: 50px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.menu.menu--menu-agence.nav a:hover{
+	color: $color3;
+	border-bottom: 1px solid $color3;
+	transition: 0.5s;
+	background: none;
+}

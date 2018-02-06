@@ -3,7 +3,14 @@ footer{
 }	
 
 .menu.menu--footer.nav a{
+	color: $color3;
+	padding:0;
+}
+
+.menu.menu--footer.nav a:hover{
 	color: $color1;
+	background: none;
+	transition: 0.5s;
 }
 
 .footer.container{
