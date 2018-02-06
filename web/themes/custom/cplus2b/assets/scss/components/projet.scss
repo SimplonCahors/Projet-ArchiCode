@@ -1,8 +1,8 @@
 a.titre-projet{
 	background: rgba(255,255,255,0.6);
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	width: 250px;
+	height:250px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -15,3 +15,27 @@ a.titre-projet:hover{
 	opacity:1;
 	transition: 0.5s;
 }
+
+
+.items-projet {
+	width:250px;
+	height:250px;
+	margin:15px;
+	overflow: hidden;
+}
+
+div.view-projets .view-content {
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+
+
+div.view-projets .view-content .img-responsive{
+	width:250px;
+	height:250px;
+	object-fit: cover;
+}
+
+
