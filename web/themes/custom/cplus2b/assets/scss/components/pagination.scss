@@ -1,0 +1,16 @@
+.pagination.js-pager__items a{
+	border-color: rgb(51, 51, 51);
+	color: rgb(51,51,51);
+}
+
+.pagination.js-pager__items a:hover{
+	background: rgb(51, 51, 51);
+	color: $color2;
+	transition: 0.5s;
+	border-color: rgb(51, 51, 51);
+}
+
+.pagination > .active > a{
+	background: rgb(51, 51, 51);
+	color: $color2;
+}
