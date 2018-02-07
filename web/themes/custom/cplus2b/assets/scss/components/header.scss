@@ -1,13 +1,19 @@
+header#navbar{
+	background: white;
+	position: sticky;
+	top:0;
+	z-index: 100;
+}
+
 .navbar-header{
 	width: 100%;
-	background: white;
 	margin-top: 50px;
 	margin-bottom: 30px;
 }
 
 .navbar-default {
 	border: none;
-    background-color: white;
+	background-color: white;
 }
 
 .region.region-navigation{
