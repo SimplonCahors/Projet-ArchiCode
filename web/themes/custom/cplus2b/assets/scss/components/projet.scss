@@ -1,3 +1,5 @@
+// Page tous les projets 
+
 a.titre-projet{
 	background: rgba(255,255,255,0.6);
 	position: absolute;
@@ -24,7 +26,7 @@ a.titre-projet:hover{
 	overflow: hidden;
 }
 
-div.view-projets .view-content {
+div.view-projets .view-content,div.view-projets-enseignement .view-content,div.view-projets-tertiaire-sante .view-content,div.view-projets-culturel-sportif .view-content,div.view-projets-logement-collectif .view-content,div.view-projets-tertiaire-sante .view-content,div.view-projets-culturel-sportif .view-content,div.view-projets-logement-individuel .view-content{
 	display: flex;
 	flex-direction:row;
 	flex-wrap: wrap;
@@ -32,10 +34,12 @@ div.view-projets .view-content {
 }
 
 
-div.view-projets .view-content .img-responsive{
+div.view-projets .view-content .img-responsive,div.view-projets-enseignement .view-content .img-responsive,div.view-projets-tertiaire-sante .view-content .img-responsive,div.view-projets-culturel-sportif .view-content .img-responsive,div.view-projets-logement-collectif .view-content .img-responsive,div.view-projets-logement-individuel .view-content .img-responsive{
 	width:250px;
 	height:250px;
-	object-fit: cover;
+	object-fit: cover; //Permet de faire rentrer l'image dans le cadre carré
 }
+
+
 
 
