@@ -1,0 +1,31 @@
+uuid: 7e38f7a1-5a47-4c76-a759-1c5d7dcd7c0c
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7078eb3d-f612-420e-b842-6fe84bdfd45a'
+  module:
+    - block_content
+    - system
+  theme:
+    - cplus2b
+id: mapetinfos
+theme: cplus2b
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:7078eb3d-f612-420e-b842-6fe84bdfd45a'
+settings:
+  id: 'block_content:7078eb3d-f612-420e-b842-6fe84bdfd45a'
+  label: 'Map et infos'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact/form
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,21 @@
+uuid: f03a18ea-2098-4d4f-82ef-bad6ddc53dc2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bloc_gauche
+    - node.type.projet
+  module:
+    - text
+id: node.projet.field_bloc_gauche
+field_name: field_bloc_gauche
+entity_type: node
+bundle: projet
+label: 'Bloc gauche'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

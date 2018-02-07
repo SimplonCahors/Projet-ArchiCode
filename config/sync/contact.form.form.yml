@@ -1,0 +1,12 @@
+uuid: 11ed1a13-aa66-4b97-8bd8-839c8cd5adc2
+langcode: fr
+status: true
+dependencies: {  }
+id: form
+label: form
+recipients:
+  - nico.ferreira.web@gmail.com
+reply: ''
+weight: 0
+message: 'Votre message a bien été envoyé !'
+redirect: /contact

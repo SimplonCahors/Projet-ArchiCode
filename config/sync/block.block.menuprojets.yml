@@ -1,0 +1,29 @@
+uuid: 7bb5a38a-2f94-470b-b610-0e7d365a82ed
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.menu-projets
+  module:
+    - system
+  theme:
+    - cplus2b
+id: menuprojets
+theme: cplus2b
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-projets'
+settings:
+  id: 'system_menu_block:menu-projets'
+  label: 'Menu projets'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: "/projets\r\n/projets-enseignement\r\n/projets-tertiaire-sante\r\n/projets-culturel-sportif\r\n/projets-logement-collectif\r\n/projets-logement-individuel\r\n/projets-tous"
+    negate: false
+    context_mapping: {  }

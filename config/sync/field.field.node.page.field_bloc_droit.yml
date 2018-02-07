@@ -1,0 +1,21 @@
+uuid: 64310ab0-e8a2-4f07-a0af-38b9f949591c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bloc_droit
+    - node.type.page
+  module:
+    - text
+id: node.page.field_bloc_droit
+field_name: field_bloc_droit
+entity_type: node
+bundle: page
+label: 'Bloc droit'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

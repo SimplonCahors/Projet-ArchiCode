@@ -3,13 +3,17 @@ langcode: fr
 status: true
 dependencies:
   config:
+    - field.field.node.projet.field_bloc_droite
+    - field.field.node.projet.field_bloc_gauche
+    - field.field.node.projet.field_categorie_projet
     - field.field.node.projet.field_image
-    - field.field.node.projet.field_texte
+    - field.field.node.projet.field_images_sup
     - image.style.thumbnail
     - node.type.projet
   module:
     - image
     - path
+    - text
 id: node.projet.default
 targetEntityType: node
 bundle: projet
@@ -21,21 +25,46 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_bloc_droite:
+    weight: 28
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_bloc_gauche:
+    weight: 27
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_categorie_projet:
+    weight: 30
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_image:
-    weight: 9
+    weight: 26
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
     region: content
-  field_texte:
-    weight: 10
+  field_images_sup:
+    weight: 29
     settings:
-      size: 60
-      placeholder: ''
+      progress_indicator: throbber
+      preview_image_style: thumbnail
     third_party_settings: {  }
-    type: string_textfield
+    type: image_image
     region: content
   langcode:
     type: language_select

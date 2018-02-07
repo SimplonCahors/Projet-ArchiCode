@@ -1,0 +1,19 @@
+uuid: 67c3e34c-d0fa-4e7c-a99e-6d5d98b717d5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_bloc_gauche
+field_name: field_bloc_gauche
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

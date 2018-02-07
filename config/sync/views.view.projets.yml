@@ -70,16 +70,11 @@ display:
             last: 'Dernier »'
           quantity: 9
       style:
-        type: grid
+        type: default
         options:
+          row_class: items-projet
+          default_row_class: true
           uses_fields: false
-          columns: 4
-          automatic_width: true
-          alignment: horizontal
-          col_class_default: true
-          col_class_custom: img-grid-col-projet
-          row_class_default: true
-          row_class_custom: img-grid-row-projet
       row:
         type: 'entity:node'
         options:

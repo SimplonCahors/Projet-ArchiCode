@@ -2,6 +2,12 @@
 	width: 100%;
 	background: white;
 	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.navbar-default {
+	border: none;
+    background-color: white;
 }
 
 .region.region-navigation{
@@ -32,17 +38,12 @@
 	background: none;
 }
 
-.navbar-default {
-	border: none;
-    background-color: white;
-}
 
 // pour enlever le background de is-active
 ul.menu.menu--main.nav.navbar-nav li.active a.is-active{
 	background: none;
 	color: $color3;
 	border-bottom: 1px solid $color3;
-	// background-color: $color1;
 	transition: 0.5s;
 }
 

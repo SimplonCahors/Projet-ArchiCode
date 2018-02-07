@@ -1,0 +1,42 @@
+//map
+.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item iframe{
+padding-left: 50px;
+}
+
+//infos
+.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item p{
+	text-align: right;
+}
+
+//form
+.contact-message-form-form.contact-message-form.contact-form{
+	width: 50%;
+}
+
+//container
+html.js body.path-contact.has-glyphicons div.main-container.container.js-quickedit-main-content div.row section.col-sm-12 div.region.region-content{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+//champs du formulaire
+.required:focus{
+	border-color: $color3;
+	box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px 0px;
+	transition: 0.5s;
+}
+
+//bouton envoyer
+#edit-submit{
+	background: $color2;
+	color: rgb(51, 51, 51);
+	border-color: rgb(204, 204, 204);
+}
+
+#edit-submit:hover{
+	background: rgb(51, 51, 51);
+	color: $color2;
+	transition: 0.5s;
+	border: none;
+}

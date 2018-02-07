@@ -12,7 +12,7 @@ features:
   favicon: 0
   node_user_picture: 1
 logo:
-  path: 'public://identity_6.png'
+  path: 'public://identity_5.png'
   url: ''
   use_default: 0
 table_responsive: '-1'

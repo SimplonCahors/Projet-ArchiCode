@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.projet.field_bloc_droite
+    - field.field.node.projet.field_bloc_gauche
     - field.field.node.projet.field_image
-    - field.field.node.projet.field_texte
+    - field.field.node.projet.field_images_sup
     - node.type.projet
   module:
     - image
@@ -26,6 +28,8 @@ content:
     third_party_settings: {  }
 hidden:
   addtoany: true
-  field_texte: true
+  field_bloc_droite: true
+  field_bloc_gauche: true
+  field_images_sup: true
   langcode: true
   links: true

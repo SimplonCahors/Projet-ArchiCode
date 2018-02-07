@@ -1,0 +1,26 @@
+.menu.menu--menu-projets.nav{
+	display: flex;
+}
+
+.menu.menu--menu-projets.nav a{
+	font-family: $font;	
+	color: $color1;
+	height: 40px;
+	margin-right: 30px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.menu.menu--menu-projets.nav a:hover{
+	color: $color3;
+	border-bottom: 1px solid $color3;
+	transition: 0.5s;
+	background: none;
+}
+
+.menu.menu--menu-projets.nav a.is-active{
+	background: none;
+	color: $color3;
+	border-bottom: 1px solid $color3;
+	transition: 0.5s;
+}

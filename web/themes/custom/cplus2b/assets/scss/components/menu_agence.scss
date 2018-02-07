@@ -1,6 +1,6 @@
 .menu.menu--menu-agence.nav{
 	display: flex;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .menu.menu--menu-agence.nav a{
@@ -17,4 +17,11 @@
 	border-bottom: 1px solid $color3;
 	transition: 0.5s;
 	background: none;
+}
+
+.menu.menu--menu-agence.nav a.is-active{
+	background: none;
+	color: $color3;
+	border-bottom: 1px solid $color3;
+	transition: 0.5s;
 }

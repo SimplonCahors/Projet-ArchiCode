@@ -1,0 +1,38 @@
+uuid: f94f9804-0452-4086-946d-27990bdd1ff8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagesup
+    - node.type.page
+  module:
+    - image
+id: node.page.field_imagesup
+field_name: field_imagesup
+entity_type: node
+bundle: page
+label: 'Images sup'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 1400x1400
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

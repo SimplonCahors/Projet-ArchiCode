@@ -3,9 +3,13 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
+    - field.field.node.page.field_bloc_
+    - field.field.node.page.field_bloc_droit
+    - field.field.node.page.field_image_
+    - field.field.node.page.field_imagesup
     - node.type.page
   module:
+    - image
     - text
     - user
 _core:
@@ -15,13 +19,38 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  body:
+  field_bloc_:
+    weight: 3
     label: hidden
-    type: text_default
-    weight: 0
-    region: content
     settings: {  }
     third_party_settings: {  }
+    type: text_default
+    region: content
+  field_bloc_droit:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image_:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_imagesup:
+    weight: 5
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
   links:
     weight: 1
     region: content

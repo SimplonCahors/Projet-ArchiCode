@@ -1,0 +1,21 @@
+uuid: c2b4991b-0688-4ae2-96ce-cee28a4666b3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bloc_
+    - node.type.page
+  module:
+    - text
+id: node.page.field_bloc_
+field_name: field_bloc_
+entity_type: node
+bundle: page
+label: 'Bloc gauche'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
