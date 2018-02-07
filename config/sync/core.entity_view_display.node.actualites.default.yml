@@ -28,7 +28,7 @@ content:
     region: content
   field_categorie:
     weight: 5
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
