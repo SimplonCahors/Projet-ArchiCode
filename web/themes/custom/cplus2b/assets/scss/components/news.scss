@@ -1,11 +1,8 @@
 div#masonry .view-content {
-	display: -ms-flexbox;
-	-ms-flex-direction: column;
-	-ms-flex-wrap: wrap;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	height: 150vw;
+	height: 80vw;
 	margin-top:50px;
 }
 div#masonry img {
