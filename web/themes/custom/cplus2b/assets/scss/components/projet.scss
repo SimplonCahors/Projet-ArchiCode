@@ -18,6 +18,11 @@ a.titre-projet:hover{
 	transition: 0.5s;
 }
 
+div.items-projet:hover{
+    transform: scale(1.05);
+	transition: 0.5s;
+}
+
 
 .items-projet {
 	width:250px;

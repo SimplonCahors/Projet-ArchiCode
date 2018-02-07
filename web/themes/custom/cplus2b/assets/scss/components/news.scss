@@ -1,19 +1,7 @@
-div#masonry .view-content {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	height: 80vw;
-	margin-top:50px;
-}
-div#masonry img {
-	width: 100%;
-	transition: .8s opacity;
-
-}
-
 div.items {
-	width:45%;
-	margin: 5px;
+	
+	margin: 15px;
+	
 }
 
 
@@ -32,3 +20,30 @@ div.field--name-field-date{
 	display:flex;
 	flex-direction:row;
 }
+
+
+div.view-actualites {
+	
+	
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+	  
+	
+	}	
+
+
+	// .gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+		
+	}
