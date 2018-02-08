@@ -16,6 +16,7 @@
 
 !/web/sites/default/files/2018-02
 
+
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest
 
