@@ -8,9 +8,11 @@ dependencies:
     - field.field.node.projet.field_categorie_projet
     - field.field.node.projet.field_image
     - field.field.node.projet.field_images_sup
+    - field.field.node.projet.field_retour
     - node.type.projet
   module:
     - image
+    - link
     - text
     - user
 id: node.projet.default
@@ -19,29 +21,21 @@ bundle: projet
 mode: default
 content:
   field_bloc_droite:
-    weight: 3
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_bloc_gauche:
     weight: 2
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
-  field_categorie_projet:
-    weight: 5
-    label: above
-    settings:
-      link: true
+  field_bloc_gauche:
+    weight: 1
+    label: hidden
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_label
+    type: text_default
     region: content
   field_image:
-    weight: 1
+    weight: 0
     label: hidden
     settings:
       image_style: ''
@@ -50,7 +44,7 @@ content:
     type: image
     region: content
   field_images_sup:
-    weight: 4
+    weight: 3
     label: hidden
     settings:
       image_style: ''
@@ -58,11 +52,24 @@ content:
     third_party_settings: {  }
     type: image
     region: content
+  field_retour:
+    weight: 4
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
   links:
-    weight: 0
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   addtoany: true
+  field_categorie_projet: true
   langcode: true

@@ -6,8 +6,10 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.projet.field_bloc_droite
     - field.field.node.projet.field_bloc_gauche
+    - field.field.node.projet.field_categorie_projet
     - field.field.node.projet.field_image
     - field.field.node.projet.field_images_sup
+    - field.field.node.projet.field_retour
     - node.type.projet
   module:
     - image
@@ -30,6 +32,8 @@ hidden:
   addtoany: true
   field_bloc_droite: true
   field_bloc_gauche: true
+  field_categorie_projet: true
   field_images_sup: true
+  field_retour: true
   langcode: true
   links: true

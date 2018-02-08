@@ -8,10 +8,12 @@ dependencies:
     - field.field.node.projet.field_categorie_projet
     - field.field.node.projet.field_image
     - field.field.node.projet.field_images_sup
+    - field.field.node.projet.field_retour
     - image.style.thumbnail
     - node.type.projet
   module:
     - image
+    - link
     - path
     - text
 id: node.projet.default
@@ -65,6 +67,14 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_retour:
+    weight: 31
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
     region: content
   langcode:
     type: language_select
