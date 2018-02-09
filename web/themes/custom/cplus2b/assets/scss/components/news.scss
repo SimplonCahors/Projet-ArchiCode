@@ -1,9 +1,6 @@
 div.items {
-	
-	margin: 15px;
-	
+	margin: 15px;	
 }
-
 
 div.field--name-field-titre-actu{
 	text-align:right;
@@ -21,27 +18,27 @@ div.field--name-field-date{
 
 
 div.view-actualites {
-	
-	
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-	  
-	
-	}	
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+}	
 
 
-	// .gal img{ width: 100%; padding: 7px 0;}
-@media (max-width: 500px) {
-		
-		div.view-actualites {
-	
-	
-	-webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-	  
-	
+// .gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {		
+	div.view-actualites {		
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+		-moz-column-count: 1; /* Firefox */
+		column-count: 1;				
 	}
-		
-	}
+}
+
+//pour le titre
+div.field--name-field-titre-de-lactu{
+	text-align: center;
+	color: $color1;
+	font-weight: $bold;
+	margin-bottom: 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
