@@ -75,11 +75,10 @@
 <article{{ attributes }}>
 
   <div{{ content_attributes }}>
-      {{ content.field_categorie }}
     <div class="titrage-actu">
-      {{ content.field_date }}
-      {{ content.field_titre_actu }}
+      {{ content.field_date }} <p>-</p> {{ content.field_categorie }}
     </div>
+    {{ content.field_titre_actu }}
     {{ content|without('field_titre_actu', 'field_date', 'field_categorie') }}
   </div>
 

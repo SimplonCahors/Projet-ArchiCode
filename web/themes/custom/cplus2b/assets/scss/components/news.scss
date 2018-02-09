@@ -8,19 +8,23 @@ div.items {
 div.field--name-field-titre-actu{
 	// background: pink;
 	text-align:right;
-	width:50%;
+	
 }
 
 div.field--name-field-date{
 	// background:red;
-	width:50%;
+	
 }
 
 .titrage-actu{
 	display:flex;
 	flex-direction:row;
+	text-transform:uppercase;
 }
 
+.titrage-actu p{
+	margin: 0 5px;
+}
 
 div.view-actualites {
 	
