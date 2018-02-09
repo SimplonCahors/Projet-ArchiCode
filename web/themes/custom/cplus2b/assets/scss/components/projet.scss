@@ -25,7 +25,7 @@ div.items-projet:hover{
 .items-projet {
 	width:250px;
 	height:250px;
-	margin:15px;
+	margin: 10px 0;
 	overflow: hidden;
 	transition: 0.5s;
 }
@@ -34,7 +34,7 @@ div.view-projets .view-content,div.view-projets-enseignement .view-content,div.v
 	display: flex;
 	flex-direction:row;
 	flex-wrap: wrap;
-	justify-content:center;
+	justify-content:space-between;
 }
 
 
