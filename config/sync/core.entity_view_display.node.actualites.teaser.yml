@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.actualites.field_date
     - field.field.node.actualites.field_news_image
     - field.field.node.actualites.field_titre_actu
+    - field.field.node.actualites.field_titre_de_l_actu
     - node.type.actualites
   module:
     - datetime
@@ -43,7 +44,7 @@ content:
     label: hidden
     settings:
       image_style: ''
-      image_link: content
+      image_link: ''
     third_party_settings: {  }
   field_titre_actu:
     type: string
@@ -56,5 +57,6 @@ content:
 hidden:
   addtoany: true
   body: true
+  field_titre_de_l_actu: true
   langcode: true
   links: true

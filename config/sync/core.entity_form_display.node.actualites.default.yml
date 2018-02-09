@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.actualites.field_date
     - field.field.node.actualites.field_news_image
     - field.field.node.actualites.field_titre_actu
+    - field.field.node.actualites.field_titre_de_l_actu
     - image.style.thumbnail
     - node.type.actualites
   module:
@@ -60,6 +61,14 @@ content:
     region: content
   field_titre_actu:
     weight: 125
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_titre_de_l_actu:
+    weight: 127
     settings:
       size: 60
       placeholder: ''

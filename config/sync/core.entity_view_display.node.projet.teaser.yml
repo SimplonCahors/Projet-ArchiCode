@@ -33,5 +33,6 @@ hidden:
   field_bloc_gauche: true
   field_categorie_projet: true
   field_images_sup: true
+  field_titre_du_projet: true
   langcode: true
   links: true
