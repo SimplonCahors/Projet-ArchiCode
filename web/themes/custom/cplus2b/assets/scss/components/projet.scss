@@ -1,5 +1,4 @@
 // Page tous les projets 
-
 a.titre-projet{
 	background: rgba(255,255,255,0.6);
 	position: absolute;
@@ -23,7 +22,6 @@ div.items-projet:hover{
 	transition: 0.5s;
 }
 
-
 .items-projet {
 	width:250px;
 	height:250px;
@@ -46,6 +44,13 @@ div.view-projets .view-content .img-responsive,div.view-projets-enseignement .vi
 	object-fit: cover; //Permet de faire rentrer l'image dans le cadre carré
 }
 
-
-
+//pour le titre
+div.field--name-field-titre-du-projet{
+	text-align: center;
+	color: $color1;
+	font-weight: $bold;
+	margin-bottom: 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
 

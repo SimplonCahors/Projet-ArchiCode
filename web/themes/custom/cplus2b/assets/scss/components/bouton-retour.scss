@@ -1,0 +1,13 @@
+a.back{
+	float: right;	
+	margin-top: 30px;
+	font-weight: $bold;
+	color: $color1;
+}
+
+a.back:hover{
+	color: $color3;
+	background: none;
+	text-decoration: none;
+	transition: 0.5s;
+}
