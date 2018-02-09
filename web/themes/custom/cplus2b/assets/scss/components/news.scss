@@ -1,5 +1,13 @@
+div#masonry div.view-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
 div.items {
-	margin: 15px;	
+	margin: 15px;
+	width:500px;	
 }
 
 div.field--name-field-titre-actu{
@@ -18,22 +26,7 @@ div.field--name-field-titre-actu{
 	margin: 0 5px;
 }
 
-div.view-actualites {
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-	-moz-column-count: 2; /* Firefox */
-	column-count: 2;
-}	
 
-@media (max-width: 500px) {
-		
-		div.view-actualites {
-	
-	
-	-webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-	}
-}
 
 //pour le titre
 div.field--name-field-titre-de-lactu{
@@ -44,3 +37,29 @@ div.field--name-field-titre-de-lactu{
 	font-size: 16px;
 	text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+// masonry
+
+// div.view-actualites {
+	// 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	// 	-moz-column-count: 2; /* Firefox */
+	// 	column-count: 2;
+	// }	
+
+	// @media (max-width: 500px) {
+		
+		// 		div.view-actualites {
+
+
+			// 	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+			//     -moz-column-count: 1; /* Firefox */
+			//     column-count: 1;
+			// 	}
+			// }
