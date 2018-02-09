@@ -1,0 +1,19 @@
+uuid: 0114f4c0-946b-41ce-883d-5ffcf9272324
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titre_du_projet
+    - node.type.projet
+id: node.projet.field_titre_du_projet
+field_name: field_titre_du_projet
+entity_type: node
+bundle: projet
+label: 'Titre du projet'
+description: 'Titre qui s''affiche en haut de la page d''un projet'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
