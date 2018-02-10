@@ -7,7 +7,7 @@ div#masonry div.view-content{
 
 div.items {
 	margin: 15px;
-	width:500px;	
+	width:500px;
 }
 
 div.field--name-field-news-image img.img-responsive{
@@ -17,15 +17,22 @@ div.field--name-field-news-image img.img-responsive{
 }
 
 div.field--name-field-titre-actu{
-	text-align:right;
-	
+	text-align:center;
+	font-weight:$bold;
 }
 
+div.items  p{
+font-size: 1.2rem;
+margin-top: 5px;
+text-align: center;
+}
 
 .titrage-actu{
 	display:flex;
 	flex-direction:row;
+	justify-content:center;
 	text-transform:uppercase;
+	font-weight:$bold;
 }
 
 .titrage-actu p{
