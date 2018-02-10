@@ -53,7 +53,7 @@ content:
     region: content
   field_titre_du_projet:
     weight: 0
-    label: above
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }

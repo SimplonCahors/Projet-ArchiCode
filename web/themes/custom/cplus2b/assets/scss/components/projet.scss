@@ -12,6 +12,11 @@ a.titre-projet{
 	text-decoration: none;
 }
 
+.titre-projet span{
+	font-size: 20px;
+	text-align: center;
+}
+
 a.titre-projet:hover{
 	opacity:1;
 	transition: 0.5s;

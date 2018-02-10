@@ -1,0 +1,19 @@
+uuid: 3b3f08da-265b-4a04-96be-1e146a18da2a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titre_de_l_actu
+    - node.type.actualites
+id: node.actualites.field_titre_de_l_actu
+field_name: field_titre_de_l_actu
+entity_type: node
+bundle: actualites
+label: 'Titre de l''actu'
+description: 'Titre qui s''affichera sur la page de l''actualité correspondante'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
