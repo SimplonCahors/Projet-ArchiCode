@@ -18,6 +18,10 @@ bootstrap-scripts:
     bootstrap/assets/javascripts/bootstrap/tab.js: {}
     bootstrap/assets/javascripts/bootstrap/transition.js: {}
 
+burger-menu:
+    js:
+      dist/js/app.js: {}
+
 # masonry:
 #     js:
 #       nodes_modules/masonry-layout/masonry.js: {}
