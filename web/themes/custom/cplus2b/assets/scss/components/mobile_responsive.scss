@@ -1,3 +1,7 @@
+#burger-menu,#close-menu{
+	display:none;
+}
+
 @media all and (max-device-width: 480px){
 	header#navbar{
 		background: $color2;
@@ -10,7 +14,7 @@
 		padding:0;
 	}
 	a.logo.navbar-btn img {
-		width:250px;
+		width:230px;
 	}
 	#leMenu{
 		display:flex;
@@ -23,18 +27,35 @@
 		justify-content: center;
 		align-items:center;
 		font-size: 2rem;
-		transition:1s;
+		transition:0.5s;
 		z-index:200;
 	}
-	ul.menu--main li{
-		margin: 30px;
+	ul.menu--main li.nav-item{
+		margin: 30px 0px;
 		text-align:center;
+		display:flex;
+		justify-content:center;
 	}
+	.menu.menu--main.nav.navbar-nav a{
+		margin:0;
+	}
+	//bouton close
 	#close-menu{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
 		position:absolute;
+		border:1px solid $color3;
+		width: 40px;
+		height:40px;
 		top:10% ;
 		right:10%;
+		border-radius:50%;
+		background:$color2;
+		color:$color3;
 	}
+	// bouton menu-burger
 	#burger-menu{
 		display:flex;
 		flex-direction:column;
@@ -42,9 +63,9 @@
 		align-items:center;
 		position:absolute;
 		top:15%;
-		right:10%;
+		right:5%;
 		border:1px solid $color3;
-		background:white;
+		background:$color2;
 		width: 40px;
 		height:40px;
 		border-radius:5px;
@@ -55,9 +76,10 @@
 		margin: 3px 0px;
 	
 	}
+	// effet d'apparition du menu burger
 	.moved {
-		transform: translateX(400px); /* Equal to translate(10px) */
-		transition:1s;
+		transform: translateX(400px); 
+		transition:0.5s;
 	}
 }
 
