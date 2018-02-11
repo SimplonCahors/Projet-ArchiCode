@@ -22,4 +22,5 @@ regions:
 libraries:
   - 'cplus2b/global-styling'
   - 'cplus2b/bootstrap-scripts'
+  - 'cplus2b/burger-menu'
   # - 'cplus2b/masonry'
