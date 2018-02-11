@@ -3,6 +3,9 @@
 }
 
 @media all and (max-device-width: 480px){
+
+
+	/******************** PARTIE MENU RESPONSIVE ********************************/ 
 	header#navbar{
 		background: $color2;
 		height: 80px;
@@ -74,13 +77,47 @@
 		border:1px solid $color3;
 		width: 80%;
 		margin: 3px 0px;
-	
+
 	}
 	// effet d'apparition du menu burger
 	.moved {
 		transform: translateX(400px); 
 		transition:0.5s;
 	}
+
+	/******************** PAGE ACTUALITES ********************************/ 
+
+	/******************** PAGE PROJETS ********************************/ 
+
+	/******************** PAGE AGENCE ********************************/ 
+
+	/******************** PAGE CONTACT ********************************/ 
+
+	//container
+	html.js body.path-contact.has-glyphicons div.main-container.container.js-quickedit-main-content div.row section.col-sm-12 div.region.region-content{
+		flex-direction: column;	
+	}
+	//map
+	.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item iframe{
+		width:100%;
+		padding:0;
+	}
+	//infos
+	.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item p{
+		text-align: center;
+	}
+	//form
+	.contact-message-form-form.contact-message-form.contact-form{
+		width: 90%;
+		margin:auto;
+		margin-top:20px;
+	}
+	// div boutons
+	div#edit-actions{
+		display: flex;
+		justify-content: center;
+	}
+
 }
 
 
