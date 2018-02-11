@@ -90,9 +90,20 @@
 	/******************** PAGE ACTUALITES ********************************/ 
 
 	/******************** PAGE PROJETS ********************************/ 
-
+	//le sous-menu
+	nav#block-menuprojets{
+		display:none;
+	}
+	//cadre de tout les projets
+	div.view-projets .view-content {
+		justify-content:center;
+	}
+	// photo projets
+	a.titre-projet{
+		opacity:0.8;
+	}
 	/******************** PAGE AGENCE ********************************/ 
-	//le menu
+	//le sous-menu
 	ul.menu--menu-agence li{
 		width:25%;
 	}
