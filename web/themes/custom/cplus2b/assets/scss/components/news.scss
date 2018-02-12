@@ -4,7 +4,6 @@ div#masonry div.view-content{
 	justify-content: space-between;
 }
 
-
 div.items {
 	margin: 15px;
 	width:500px;
@@ -39,8 +38,6 @@ text-align: center;
 	margin: 0 5px;
 }
 
-
-
 //pour le titre
 div.field--name-field-titre-de-lactu{
 	text-align: center;
@@ -51,12 +48,11 @@ div.field--name-field-titre-de-lactu{
 	text-transform: uppercase;
 }
 
-
-
-
-
-
-
+//Mise en page petite description des accroches
+.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item p{
+	text-align: center;	
+	margin-bottom: 15px;
+}
 
 // masonry
 
