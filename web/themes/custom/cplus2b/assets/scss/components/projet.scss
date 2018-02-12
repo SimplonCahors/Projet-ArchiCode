@@ -35,10 +35,17 @@ div.items-projet:hover{
 	transition: 0.5s;
 }
 
+div.view-projets-enseignement .view-content .items-projet,div.view-projets-tertiaire-sante .view-content .items-projet,div.view-projets-culturel-sportif .view-content .items-projet,div.view-projets-logement-collectif .view-content .items-projet,div.view-projets-tertiaire-sante .view-content .items-projet,div.view-projets-culturel-sportif .view-content .items-projet,div.view-projets-logement-individuel .view-content .items-projet{
+	margin-right:50px;
+}
+
 div.view-projets .view-content,div.view-projets-enseignement .view-content,div.view-projets-tertiaire-sante .view-content,div.view-projets-culturel-sportif .view-content,div.view-projets-logement-collectif .view-content,div.view-projets-tertiaire-sante .view-content,div.view-projets-culturel-sportif .view-content,div.view-projets-logement-individuel .view-content{
 	display: flex;
 	flex-direction:row;
-	flex-wrap: wrap;
+	flex-wrap: wrap;	
+}
+
+div.view-projets .view-content{
 	justify-content:space-between;
 }
 
