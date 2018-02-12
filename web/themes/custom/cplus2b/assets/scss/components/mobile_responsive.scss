@@ -4,6 +4,13 @@
 
 @media all and (max-device-width: 480px){
 
+	/******************** FRONT PAGE LOGO ********************************/ 
+	a#logohome{
+		width:90vw;
+	}
+	a#logohome img{
+		width:100%;
+	}
 
 	/******************** PARTIE MENU RESPONSIVE ********************************/ 
 	header#navbar{
