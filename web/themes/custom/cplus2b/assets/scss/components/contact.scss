@@ -1,16 +1,25 @@
 //map
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item iframe{
-padding-left: 50px;
+	padding-left: 50px;
+	-webkit-animation-name: bounceInRight;
+	animation-name: bounceInRight;
+	animation-duration: 2s;
 }
 
 //infos
 .field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item p{
 	text-align: right;
+	-webkit-animation-name: bounceInRight;
+	animation-name: bounceInRight;
+	animation-duration: 2s;
 }
 
 //form
 .contact-message-form-form.contact-message-form.contact-form{
 	width: 50%;
+	-webkit-animation-name: bounceInLeft;
+	animation-name: bounceInLeft;
+	animation-duration: 2s;
 }
 
 //container
