@@ -1,4 +1,5 @@
-.path-frontpage{
+div#welcome{
+	position:absolute;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -6,8 +7,18 @@
 	padding:0;
 	width:100vw;
 	height:100vh;
-	-webkit-animation-name: fadeIn;
-	animation-name: fadeIn;
-	animation-duration: 2s;
+	background:$color2;
+	z-index:300;
+	
+}
+
+
+
+
+div#welcome img{
+	width:30%;
+}
+div#welcome img:hover{
+cursor:pointer;
 }
 

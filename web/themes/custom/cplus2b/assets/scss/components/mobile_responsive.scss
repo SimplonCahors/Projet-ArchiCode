@@ -5,12 +5,9 @@
 @media all and (max-device-width: 480px){
 
 	/******************** FRONT PAGE LOGO ********************************/ 
-	a#logohome{
-		width:90vw;
-	}
-	a#logohome img{
-		width:100%;
-	}
+	div#welcome img{
+	width:80%;
+}
 
 	/******************** PARTIE MENU RESPONSIVE ********************************/ 
 	header#navbar{
@@ -67,6 +64,9 @@
 		background:$color2;
 		color:$color3;
 	}
+	#close-menu span{
+		color:$color3;
+	}
 	// bouton menu-burger
 	#burger-menu{
 		display:flex;
@@ -83,10 +83,8 @@
 		border-radius:5px;
 	}
 	#burger-menu span{
-		border:1px solid $color3;
-		width: 80%;
-		margin: 3px 0px;
-
+		font-size:2rem;
+		color:$color3;
 	}
 	// effet d'apparition du menu burger
 	.moved {
