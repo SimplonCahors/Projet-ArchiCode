@@ -67,6 +67,9 @@
 		background:$color2;
 		color:$color3;
 	}
+	#close-menu span{
+		color:$color3;
+	}
 	// bouton menu-burger
 	#burger-menu{
 		display:flex;
@@ -83,10 +86,8 @@
 		border-radius:5px;
 	}
 	#burger-menu span{
-		border:1px solid $color3;
-		width: 80%;
-		margin: 3px 0px;
-
+		font-size:2rem;
+		color:$color3;
 	}
 	// effet d'apparition du menu burger
 	.moved {
