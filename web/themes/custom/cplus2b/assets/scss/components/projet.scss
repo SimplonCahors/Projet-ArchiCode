@@ -33,6 +33,9 @@ div.items-projet:hover{
 	margin: 10px 0;
 	overflow: hidden;
 	transition: 0.5s;
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	animation-duration: 2s;
 }
 
 div.view-projets-enseignement .view-content .items-projet,div.view-projets-tertiaire-sante .view-content .items-projet,div.view-projets-culturel-sportif .view-content .items-projet,div.view-projets-logement-collectif .view-content .items-projet,div.view-projets-tertiaire-sante .view-content .items-projet,div.view-projets-culturel-sportif .view-content .items-projet,div.view-projets-logement-individuel .view-content .items-projet{
