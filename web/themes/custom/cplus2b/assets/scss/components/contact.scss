@@ -49,3 +49,18 @@ html.js body.path-contact.has-glyphicons div.main-container.container.js-quicked
 	transition: 0.5s;
 	border-color: rgb(51, 51, 51);
 }
+
+//bouton preview
+#edit-preview.button.js-form-submit.form-submit.btn-default.btn.icon-before{
+	display: none;
+}
+
+
+//map
+.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item iframe{
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+}

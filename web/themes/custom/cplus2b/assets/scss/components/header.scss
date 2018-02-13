@@ -5,6 +5,10 @@ header#navbar{
 	z-index: 100;
 }
 
+header#navbar.navbar.navbar-default.container{
+	padding: 0;
+}
+
 .navbar-header{
 	width: 100%;
 	margin-top: 50px;
