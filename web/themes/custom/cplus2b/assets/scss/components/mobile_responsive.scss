@@ -6,8 +6,8 @@
 
 	/******************** FRONT PAGE LOGO ********************************/ 
 	div#welcome img{
-	width:80%;
-}
+		width:80%;
+	}
 
 	/******************** PARTIE MENU RESPONSIVE ********************************/ 
 	header#navbar{
@@ -36,8 +36,19 @@
 		font-size: 2rem;
 		transition:0.5s;
 		z-index:200;
+		flex-direction:column;
 
 	}
+
+	#social-network{
+		margin-left:0;
+	}
+	#social-network a img{
+
+		margin:0;
+		
+	}
+
 	ul.menu--main li.nav-item{
 		margin: 30px 0px;
 		text-align:center;

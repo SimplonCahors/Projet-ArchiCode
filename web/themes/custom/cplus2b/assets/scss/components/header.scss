@@ -59,4 +59,23 @@ ul.menu.menu--main.nav.navbar-nav li.active a.is-active{
 
 
 
+#leMenu{
+	display:flex;
+	align-items:center;
+}
 
+
+#social-network{
+	margin-left:20px
+}
+
+#social-network a{
+	width:20px;
+	height:20px;
+}
+
+#social-network a img{
+	width:20px;
+	margin-left:10px;
+	margin-top:5px;
+}
