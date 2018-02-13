@@ -4,6 +4,9 @@
 
 @media all and (max-device-width: 480px){
 
+	body{
+		overflow-x:hidden;
+	}
 	/******************** FRONT PAGE LOGO ********************************/ 
 	div#welcome img{
 		width:80%;
