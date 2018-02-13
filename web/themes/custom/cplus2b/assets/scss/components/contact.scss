@@ -14,6 +14,11 @@
 	animation-duration: 2s;
 }
 
+//infos/adresse mail
+.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item p a{
+	color: $color3;
+}
+
 //form
 .contact-message-form-form.contact-message-form.contact-form{
 	width: 50%;
