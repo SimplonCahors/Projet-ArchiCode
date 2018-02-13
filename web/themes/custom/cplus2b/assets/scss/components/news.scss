@@ -7,6 +7,9 @@ div#masonry div.view-content{
 div.items {
 	margin: 15px;
 	width:500px;
+	-webkit-animation-name: fadeInRight;
+	animation-name: fadeInRight;
+	animation-duration: 2s;
 }
 
 div.field--name-field-news-image img.img-responsive{
