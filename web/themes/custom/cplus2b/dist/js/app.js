@@ -42,8 +42,8 @@ function closeLogo() {
 
 function autoClose() {
 	setTimeout(function(){welcome.classList.add('fadeOut')
-		welcome.parentNode.style.overflow = 'visible';;}, 3000);
+		welcome.parentNode.style.overflow = 'visible';;}, 2000);
 	setTimeout(function(){ welcome.classList.add('hidden');
-	sessionStorage.setItem('logo', 'load'); }, 5000);
+	sessionStorage.setItem('logo', 'load'); }, 4000);
 }
 autoClose();

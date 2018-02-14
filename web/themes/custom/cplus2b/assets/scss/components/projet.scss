@@ -23,7 +23,7 @@ a.titre-projet:hover{
 }
 
 div.items-projet:hover{
-    transform: scale(1.05);
+	transform: scale(1.05);
 	transition: 0.5s;
 }
 
@@ -33,9 +33,11 @@ div.items-projet:hover{
 	margin: 10px 0;
 	overflow: hidden;
 	transition: 0.5s;
+}
+div.view-projets .view-content .items-projet{
 	-webkit-animation-name: fadeInUp;
 	animation-name: fadeInUp;
-	animation-duration: 2s;
+	animation-duration: 1s;
 }
 
 div.view-projets .view-content .items-projet,div.view-projets-enseignement .view-content .items-projet,div.view-projets-tertiaire-sante .view-content .items-projet,div.view-projets-culturel-sportif .view-content .items-projet,div.view-projets-logement-collectif .view-content .items-projet,div.view-projets-tertiaire-sante .view-content .items-projet,div.view-projets-culturel-sportif .view-content .items-projet,div.view-projets-logement-individuel .view-content .items-projet{
