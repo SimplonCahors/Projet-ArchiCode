@@ -1,8 +1,7 @@
-a.back{
-	float: right;	
+a.back{	
 	margin-top: 30px;
-	font-weight: $bold;
 	color: $color1;
+	font-size: 14px;
 }
 
 a.back:hover{
@@ -10,4 +9,9 @@ a.back:hover{
 	background: none;
 	text-decoration: none;
 	transition: 0.5s;
+}
+
+.back{
+	display: flex;
+	justify-content: center;
 }
