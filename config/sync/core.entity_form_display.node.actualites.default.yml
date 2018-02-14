@@ -12,7 +12,6 @@ dependencies:
     - image.style.thumbnail
     - node.type.actualites
   module:
-    - datetime
     - image
     - path
     - text
@@ -46,10 +45,12 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_date:
-    weight: 123
-    settings: {  }
+    weight: 128
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: datetime_default
+    type: string_textfield
     region: content
   field_news_image:
     weight: 122

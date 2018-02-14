@@ -12,7 +12,6 @@ dependencies:
     - field.field.node.actualites.field_titre_de_l_actu
     - node.type.actualites
   module:
-    - datetime
     - image
     - text
     - user
@@ -37,13 +36,12 @@ content:
       link: false
     third_party_settings: {  }
   field_date:
-    type: datetime_default
+    type: string
     weight: 1
     region: content
     label: hidden
     settings:
-      timezone_override: ''
-      format_type: html_date
+      link_to_entity: false
     third_party_settings: {  }
   field_news_image:
     type: image

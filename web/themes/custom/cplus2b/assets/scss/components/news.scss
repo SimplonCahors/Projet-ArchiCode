@@ -25,8 +25,9 @@ div.field--name-field-titre-actu{
 
 div.items  p{
 font-size: 1.2rem;
-margin-top: 5px;
+margin: 0 10px;
 text-align: center;
+
 }
 
 .titrage-actu{
@@ -39,6 +40,10 @@ text-align: center;
 
 .titrage-actu p{
 	margin: 0 5px;
+}
+
+.titrage-actu .field--name-field-date{
+	font-weight:normal;
 }
 
 //pour le titre
