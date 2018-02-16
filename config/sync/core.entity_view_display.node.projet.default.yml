@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.projet.field_categorie_projet
     - field.field.node.projet.field_image
     - field.field.node.projet.field_images_sup
+    - field.field.node.projet.field_nom
     - field.field.node.projet.field_titre_du_projet
     - node.type.projet
   module:
@@ -67,4 +68,5 @@ content:
 hidden:
   addtoany: true
   field_categorie_projet: true
+  field_nom: true
   langcode: true

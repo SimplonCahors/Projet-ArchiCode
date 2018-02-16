@@ -9,6 +9,8 @@ dependencies:
     - field.field.node.projet.field_categorie_projet
     - field.field.node.projet.field_image
     - field.field.node.projet.field_images_sup
+    - field.field.node.projet.field_nom
+    - field.field.node.projet.field_titre_du_projet
     - node.type.projet
   module:
     - image
@@ -26,6 +28,14 @@ content:
     settings:
       image_style: ''
       image_link: content
+    third_party_settings: {  }
+  field_nom:
+    type: string
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
 hidden:
   addtoany: true

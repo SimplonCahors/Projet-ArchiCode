@@ -22,6 +22,12 @@ a.titre-projet:hover{
 	transition: 0.5s;
 }
 
+//pour le nom de la ville sur les accroches
+div.items-projet .field--name-field-nom{
+	background: red;
+	z-index: 400;
+}
+
 div.items-projet:hover{
 	transform: scale(1.05);
 	transition: 0.5s;

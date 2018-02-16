@@ -1,20 +1,42 @@
-// image
+// première image
 .field.field--name-field-image.field--type-image.field--label-hidden.field--item img{
 	width:100%;
 	margin-bottom: 20px;
 }
 
+//titre
+.field.field--name-field-titre-du-projet.field--type-string.field--label-hidden.field--item{
+	text-align: left;
+}
+
 //bloc gauche
+.field.field--name-field-bloc-gauche.field--type-text-long.field--label-hidden.field--item p{
+	padding-top: 20px;
+	margin-right: 30px;
+	border-top: 2px solid $color3;
+}
+
 .field.field--name-field-bloc-gauche.field--type-text-long.field--label-hidden.field--item{
-	margin-bottom: 30px;
+	width: 30%;
 }
 
 //bloc droit
-.field.field--name-field-bloc-droite{
-	margin-bottom: 30px;
+.field.field--name-field-bloc-droite.field--type-text-long.field--label-hidden.field--item p{
+	padding-top: 20px;
 }
 
-//images sup
+.field.field--name-field-bloc-droite.field--type-text-long.field--label-hidden.field--item {
+	width: 70%;
+}
+
+//bloc contenant le bloc droit et le bloc gauche
+.deuxblocs{
+	margin-bottom: 30px;
+	display:flex;
+	justify-content:space-between;
+}
+
+//images sup (supplémentaires)
 .field.field--name-field-images-sup.field--type-image.field--label-hidden.field--items img{
 	width: 100%;
 	margin-bottom: 20px;

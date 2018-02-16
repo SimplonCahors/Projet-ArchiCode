@@ -96,12 +96,13 @@
   {% endif %}
 
   <div{{ content_attributes.addClass('content') }}>
-  {{ content.field_image_ }}
+  {{ content.field_image }}
+  {{ content.field_titre_du_projet }}
     <div class="deuxblocs">
-    {{ content.field_bloc_ }}
-    {{ content.field_bloc_droit }}
+    {{ content.field_bloc_gauche }}
+    {{ content.field_bloc_droite }}
   </div>
-    {{ content |without('field_bloc_','field_bloc_droit','field_image_')}}
+    {{ content |without('field_bloc_gauche','field_bloc_droite','field_image','field_titre_du_projet')}}
   </div>
     <a class="back" href="/projets">‹ Retour</a>
 
