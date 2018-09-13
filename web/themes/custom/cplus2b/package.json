@@ -4,11 +4,12 @@
   "devDependencies": {
     "bootstrap-sass": "file:bootstrap",
     "gulp": "3.9.1",
-    "gulp-clean-css": "^3.9.0",
+    "gulp-clean-css": "^3.10.0",
     "gulp-minify": "^2.1.0",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.2.1"
   },
   "dependencies": {
-    "masonry-layout": "^4.2.1"
+    "masonry-layout": "^4.2.2",
+    "natives": "^1.1.5"
   }
 }

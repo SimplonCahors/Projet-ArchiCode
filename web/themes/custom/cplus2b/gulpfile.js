@@ -3,22 +3,17 @@ var sass = require('gulp-sass');
 var cleanCSS = require('gulp-clean-css');
 var minify = require('gulp-minify');
 
-
-
+gulp.task('default', ['compress','sass'], function() {});
 
 /***** lance gulp avec toutes les fonctions ****/
-
-gulp.task('default', ['compress','sass'],function() {
+gulp.task('watch', ['compress','sass'], function() {
 	gulp.watch('assets/scss/*.scss', ['sass']);
-    gulp.watch('assets/scss/components/*.scss', ['sass']);
-    gulp.watch('assets/scss/component/*.scss', ['sass']);
-    gulp.watch('assets/scss/global/*.scss', ['sass']);
-    gulp.watch('assets/scss/jquery-ui/*.scss', ['sass']);
+  gulp.watch('assets/scss/components/*.scss', ['sass']);
+  gulp.watch('assets/scss/component/*.scss', ['sass']);
+  gulp.watch('assets/scss/global/*.scss', ['sass']);
+  gulp.watch('assets/scss/jquery-ui/*.scss', ['sass']);
 	gulp.watch('assets/js/*.js', ['compress']);
-
 });
-
-
 
 /**** CSS optimisation *****/
 gulp.task('sass', function () {
@@ -31,8 +26,6 @@ gulp.task('sass', function () {
  
 
 /***** Js opti *****/
-
-
 gulp.task('compress', function() {
   gulp.src('assets/js/*.js')
     .pipe(minify({
