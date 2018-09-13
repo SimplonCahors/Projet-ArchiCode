@@ -23,6 +23,7 @@
         "drupal/admin_toolbar": "^1.22",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6",
+        "drupal/devel": "^1.2",
         "drupal/geofield_map": "^1.31",
         "drupal/google_analytics": "^2.2",
         "drupal/honeypot": "^1.27",

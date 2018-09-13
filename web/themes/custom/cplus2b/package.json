@@ -1,6 +1,12 @@
 {
   "name": "gulpCplus2B",
   "version": "0.1.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "gulp sass;",
+    "build:prod": "gulp;",
+    "watch": "gulp watch"
+  },
   "devDependencies": {
     "bootstrap-sass": "file:bootstrap",
     "gulp": "3.9.1",
