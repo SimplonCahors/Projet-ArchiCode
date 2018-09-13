@@ -3,6 +3,6 @@ langcode: fr
 status: true
 dependencies: {  }
 id: menu-projets
-label: 'Menu projets'
+label: 'Sélection de projets'
 description: 'Gestion du sous menu dans la page Projets'
 locked: false
