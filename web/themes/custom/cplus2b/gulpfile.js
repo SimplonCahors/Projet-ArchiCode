@@ -6,7 +6,7 @@ var minify = require('gulp-minify');
 gulp.task('default', ['compress','sass'], function() {});
 
 /***** lance gulp avec toutes les fonctions ****/
-gulp.task('watch', ['compress','sass'], function() {
+gulp.task('watch', ['compress'], function() {
 	gulp.watch('assets/scss/*.scss', ['sass']);
   gulp.watch('assets/scss/components/*.scss', ['sass']);
   gulp.watch('assets/scss/component/*.scss', ['sass']);
@@ -26,7 +26,7 @@ gulp.task('sass', function () {
  
 
 /***** Js opti *****/
-gulp.task('compress', function() {
+gulp.task('compress', ['sass'], function() {
   gulp.src('assets/js/*.js')
     .pipe(minify({
         ext:{

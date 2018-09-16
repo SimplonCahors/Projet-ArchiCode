@@ -35,7 +35,7 @@
 		height:100vh;
 		background:$color2;
 		top:0;
-		left:-400px;
+		left:-600px;
 		justify-content: center;
 		align-items:center;
 		font-size: 2rem;
@@ -104,7 +104,7 @@
 	}
 	// effet d'apparition du menu burger
 	.moved {
-		transform: translateX(400px); 
+		transform: translateX(600px);
 		transition:0.5s;
 	}
 
@@ -113,7 +113,7 @@
 	/******************** PAGE PROJETS ********************************/ 
 	//le sous-menu
 	nav#block-menuprojets{
-		display:none;
+		//  display:none;
 	}
 	//cadre de tout les projets
 	div.view-projets .view-content {

@@ -1,0 +1,17 @@
+uuid: f615618c-2c73-4a70-82ad-78bd23b432be
+langcode: fr
+status: true
+dependencies: {  }
+id: node__page
+label: 'Contenu: Page'
+tags:
+  description: '[node:field_bloc_]'
+  image_src: '[node:field_image_:entity:url]'
+  title: '[node:title] | C+2B'
+  og_type: website
+  og_image: '[node:field_image_:entity:url]'
+  og_description: '[node:field_bloc_]'
+  og_site_name: '[site:name]'
+  og_url: '[current-page:url]'
+  og_image_url: '[node:field_image_:entity:url]'
+  og_title: '[current-page:title]'

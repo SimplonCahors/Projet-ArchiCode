@@ -4,6 +4,10 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.page.field_bloc_
+    - field.field.node.page.field_bloc_droit
+    - field.field.node.page.field_image_
+    - field.field.node.page.field_imagesup
     - node.type.page
   module:
     - user
@@ -22,5 +26,11 @@ content:
   links:
     weight: 101
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  field_bloc_: true
+  field_bloc_droit: true
+  field_image_: true
+  field_imagesup: true
   langcode: true

@@ -30,10 +30,11 @@ module:
   libraries: 0
   link: 0
   locale: 0
-  masonry: 0
-  masonry_views: 0
   menu_ui: 0
   metatag: 0
+  metatag_facebook: 0
+  metatag_open_graph: 0
+  metatag_views: 0
   node: 0
   options: 0
   page_cache: 0

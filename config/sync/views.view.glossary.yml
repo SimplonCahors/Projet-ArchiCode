@@ -43,7 +43,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Appliquer
+          submit_button: Apply
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Trier par'
@@ -360,7 +360,7 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      max-age: 0
+      max-age: -1
       tags: {  }
   attachment_1:
     id: attachment_1
@@ -428,7 +428,7 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      max-age: 0
+      max-age: -1
       tags: {  }
   page_1:
     id: page_1
@@ -455,5 +455,5 @@ display:
         - url.query_args
         - 'user.node_grants:view'
         - user.permissions
-      max-age: 0
+      max-age: -1
       tags: {  }

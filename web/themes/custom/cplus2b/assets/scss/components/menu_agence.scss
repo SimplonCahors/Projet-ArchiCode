@@ -1,6 +1,10 @@
 .menu.menu--menu-agence.nav{
 	display: flex;
 	margin-bottom: 30px;
+
+  @media screen and (max-width: #{$screen-xs-min}) {
+    display: block;
+  }
 }
 
 .menu.menu--menu-agence.nav a{
@@ -10,6 +14,16 @@
 	margin-right: 50px;
 	padding-left: 0;
 	padding-right: 0;
+
+
+  @media screen and (max-width: #{$screen-xs-max}) {
+    margin-right: 10px;
+  }
+
+  @media screen and (max-width: #{$screen-xs-min}) {
+    display: block;
+  }
+
 }
 
 .menu.menu--menu-agence.nav a:hover{

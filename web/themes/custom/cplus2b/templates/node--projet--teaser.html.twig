@@ -76,22 +76,15 @@
 
   {{ title_prefix }}
     <h2{{ title_attributes }}>
-      <a href="{{ url }}" rel="bookmark" class="titre-projet">{{ label }}</a>
+      <a href="{{ url }}" rel="bookmark" class="titre-projet">
+        <span class="title">
+        {{ label }}
+        {{ content.field_nom.0 }}
+        </span>
+      </a>
     </h2>
   {{ title_suffix }}
-  
-  {% if display_submitted %}
-    <footer>
-      {{ author_picture }}
-      <div{{ author_attributes }}>
-        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
-        {{ metadata }}
-      </div>
-    </footer>
-  {% endif %}
 
-  <div{{ content_attributes }}>
-    {{ content }}
-  </div>
+  {{ content }}
 
 </article>

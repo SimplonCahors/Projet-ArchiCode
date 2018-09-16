@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "C+2B Architecture",
   "scripts": {
+    "watch": "cd web/themes/custom/cplus2b/ && npm run watch",
     "build": "cd web/themes/custom/cplus2b/ && npm install && npm run build:prod"
   },
   "repository": {

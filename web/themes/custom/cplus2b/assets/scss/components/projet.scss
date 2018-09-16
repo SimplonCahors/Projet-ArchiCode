@@ -10,6 +10,20 @@ a.titre-projet{
 	color: $color1;
 	opacity: 0;
 	text-decoration: none;
+
+  span.title {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 200;
+    margin: 0 5px;
+
+    span {
+      font-weight: bold;
+      font-size: 1.4em;
+      display: block;
+      margin-bottom: 8px;
+    }
+  }
 }
 
 .titre-projet span{
@@ -29,31 +43,30 @@ div.items-projet .field--name-field-nom{
 }
 
 div.items-projet:hover{
-	transform: scale(1.05);
-	transition: 0.5s;
+//	transform: scale(1.05);
+//	transition: 0.5s;
 }
 
 .items-projet {
 	width:250px;
 	height:250px;
-	margin: 10px 0;
 	overflow: hidden;
 	transition: 0.5s;
+  margin: 0 10px;
 }
 div.view-projets .view-content .items-projet{
-	-webkit-animation-name: fadeInUp;
-	animation-name: fadeInUp;
-	animation-duration: 1s;
+//	-webkit-animation-name: fadeInUp;
+//	animation-name: fadeInUp;
+//	animation-duration: 1s;
 }
 
 div.view-projets .view-content .items-projet,div.view-projets-enseignement .view-content .items-projet,div.view-projets-tertiaire-sante .view-content .items-projet,div.view-projets-culturel-sportif .view-content .items-projet,div.view-projets-logement-collectif .view-content .items-projet,div.view-projets-tertiaire-sante .view-content .items-projet,div.view-projets-culturel-sportif .view-content .items-projet,div.view-projets-logement-individuel .view-content .items-projet{
-	margin-right:30px;
 }
 
 div.view-projets .view-content,div.view-projets-enseignement .view-content,div.view-projets-tertiaire-sante .view-content,div.view-projets-culturel-sportif .view-content,div.view-projets-logement-collectif .view-content,div.view-projets-tertiaire-sante .view-content,div.view-projets-culturel-sportif .view-content,div.view-projets-logement-individuel .view-content{
 	display: flex;
 	flex-direction:row;
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
 }
 
 

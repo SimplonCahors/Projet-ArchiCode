@@ -1,4 +1,4 @@
-uuid: 10b1017a-b330-474d-b6ff-fca800ff8ac0
+uuid: 6f69375e-c978-4e93-8d5a-5f9dfc72bf2a
 langcode: fr
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
     - node.type.projet
     - taxonomy.vocabulary.categorie_projets
   content:
-    - 'taxonomy_term:categorie_projets:a9af2d03-e396-4fde-ac75-cb12ca46d736'
+    - 'taxonomy_term:categorie_projets:2147fb19-ed00-4130-a48f-6d5558102472'
   module:
     - node
     - taxonomy
     - user
-id: projets_enseignement
-label: Projets-enseignement
+id: projets_urbanisme
+label: Projets-urbanisme
 module: views
 description: ''
 tag: ''
@@ -145,7 +145,7 @@ display:
           admin_label: ''
           operator: or
           value:
-            3: 3
+            14: 14
           group: 1
           exposed: false
           expose:
@@ -196,7 +196,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Projets-enseignement
+      title: Projets-urbanisme
       header: {  }
       footer: {  }
       empty: {  }
@@ -219,7 +219,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: projets-enseignement
+      path: projets-urbanisme
     cache_metadata:
       max-age: -1
       contexts:

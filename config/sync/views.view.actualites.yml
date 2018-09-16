@@ -184,7 +184,29 @@ display:
     display_title: Bloc
     position: 2
     display_options:
-      display_extenders: {  }
+      display_extenders:
+        metatag_display_extender:
+          metatags:
+            title: 'C+2B Architecture'
+            description: 'Agence née en 2018 de la fusion de la SCP Branger&Romeu avec la SARL c+b architecture. Julien Coutineau et Julien Bellart, architectes fondateurs de cette dernière rejoignent Claude Branger pour ne former qu’une seule entité, associant le renouveau à l’expérience.'
+            abstract: 'Basée à Toulouse, l’agence est constituée de 7 personnes. 4 collaborateurs et collaboratrices sont présents autour des 3 architectes associés. Le travail de l’agence s’inscrit dans la continuité du savoir-faire de Claude Branger mais développe un renouveau grâce à l’apport des nouveaux associés et de l’ensemble du reste de l’équipe, jeune et dynamique.'
+            og_site_name: 'C+2B Architecture'
+            og_type: website
+            og_url: '[site:url]'
+            og_title: Accueil
+            og_image: '[site:url]themes/custom/cplus2b/dist/img/logo-accueil.png'
+            og_image_url: '[site:url]themes/custom/cplus2b/dist/img/logo-accueil.png'
+            og_image_type: image/png
+            og_latitude: '43.5842467'
+            og_longitude: '1.4422231'
+            og_street_address: '4 Rue des Saules'
+            og_locality: Toulouse
+            og_region: Occitanie
+            og_postal_code: '31400'
+            og_country_name: France
+            og_email: agence@cplus2b-architecture.fr
+            og_phone_number: '0561532515'
+            og_locale: fr_FR
       block_description: actualités
     cache_metadata:
       max-age: -1

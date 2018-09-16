@@ -1,5 +1,18 @@
 .menu.menu--menu-projets.nav{
 	display: flex;
+  margin: 0 10px;
+
+  @media screen and (max-width: #{$screen-sm-min}) {
+    display: block;
+  }
+
+  @media screen and (max-width: #{$screen-sm-min}) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
 }
 
 .menu.menu--menu-projets.nav a{
@@ -9,6 +22,12 @@
 	margin-right: 30px;
 	padding-left: 0;
 	padding-right: 0;
+
+  @media screen and (max-width: #{$screen-sm-max}) {
+    margin-right: 10px;
+  }
+
+
 }
 
 .menu.menu--menu-projets.nav a:hover{

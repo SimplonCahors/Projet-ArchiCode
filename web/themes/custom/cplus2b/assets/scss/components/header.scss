@@ -14,6 +14,17 @@ header#navbar.navbar.navbar-default.container{
 	width: 100%;
 	margin-top: 50px;
 	margin-bottom: 30px;
+
+  nav {
+    display: flex;
+
+    @media screen and (max-width: #{$screen-sm-max}) {
+      ul li.nav-item a {
+        margin: 0 4px !important;
+      }
+    }
+
+  }
 }
 
 .navbar-default {
@@ -57,7 +68,13 @@ ul.menu.menu--main.nav.navbar-nav li.active a.is-active{
 	transition: 0.5s;
 }
 
-
+.logo.navbar-btn img {
+  max-width: 320px;
+  @media screen and (max-width: #{$screen-xs-max}) {
+    max-width: 300px;
+    margin-left: 10px;
+  }
+}
 
 #leMenu{
 	display:flex;
