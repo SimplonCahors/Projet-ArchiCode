@@ -209,7 +209,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Projets-logement-collectif
+      title: 'Projets logements collectifs'
       header: {  }
       footer: {  }
       empty: {  }
@@ -232,7 +232,8 @@ display:
     display_title: Page
     position: 1
     display_options:
-      display_extenders: {  }
+      display_extenders:
+        metatag_display_extender: {  }
       path: projets-logement-collectif
     cache_metadata:
       max-age: -1
