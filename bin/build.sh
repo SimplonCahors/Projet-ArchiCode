@@ -86,8 +86,8 @@ notice 'Rebuild caches'
 $DRUSH cr
 
 # Run build
-notice 'Run build'
-$NPM run build
+# notice 'Run build'
+# $NPM run build
 
 # End
 echo "${GREEN}Build is done!${NORMAL}"
