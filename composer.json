@@ -31,7 +31,7 @@
         "drupal/masonry_views": "^1.0@RC",
         "drupal/metatag": "^1.4",
         "drupal/pathauto": "^1.0",
-        "drupal/redirect": "^1.0",
+        "drupal/redirect": "^1.2",
         "drupal/webform": "^5.0@RC",
         "drush/drush": "^9.0.0",
         "webflo/drupal-finder": "^1.0.0",

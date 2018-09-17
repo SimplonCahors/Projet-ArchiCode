@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a single Drupal page while offline.
+ *
+ * All available variables are mirrored in page.html.twig.
+ * Some may be blank but they are provided for consistency.
+ *
+ * @see template_preprocess_maintenance_page()
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div class="maintenance-page">
+  <h1>
+      <img src="/themes/custom/cplus2b/logo.png" alt="{{ site_name }}" />
+  </h1>
+  <p>
+    {{ page.content }}
+  </p>
+</div>

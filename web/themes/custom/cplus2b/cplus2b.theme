@@ -6,3 +6,19 @@
  *
  * Place your custom PHP code in this file.
  */
+function cplus2b_preprocess_block(&$vars) {
+  $vars['is_front'] = FALSE;
+  $config = \Drupal::config('system.site');
+  $vars['site_name'] = $config->get('name');
+  $vars['page_title'] = '';
+  if( \Drupal::service('path.matcher')->isFrontPage()) {
+    $vars['page_title'] = $vars['site_name'];
+    $vars['is_front'] = TRUE;
+  }
+  else {
+    $request = \Drupal::request();
+    if ($route = $request->attributes->get(\Symfony\Cmf\Component\Routing\RouteObjectInterface::ROUTE_OBJECT)) {
+      $vars['page_title'] = \Drupal::service('title_resolver')->getTitle($request, $route);
+    }
+  }
+}
