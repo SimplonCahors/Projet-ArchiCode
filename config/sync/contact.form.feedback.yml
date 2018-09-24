@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Retours utilisateurs sur le site web'
 recipients:
-  - nico.ferreira.web@gmail.com
+  - agence@cplus2b-architecture.fr
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

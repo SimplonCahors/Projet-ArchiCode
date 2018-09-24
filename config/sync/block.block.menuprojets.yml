@@ -24,6 +24,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/projets\r\n/projets-enseignement\r\n/projets-tertiaire-sante\r\n/projets-culturel-sportif\r\n/projets-logement-collectif\r\n/projets-logement-individuel\r\n/projets-tous"
+    pages: "/projets\r\n/projets-enseignement\r\n/projets-tertiaire-sante\r\n/projets-urbanisme\r\n/projets-culturel-sportif\r\n/projets-logement-collectif\r\n/projets-logement-individuel\r\n/projets-tous"
     negate: false
     context_mapping: {  }

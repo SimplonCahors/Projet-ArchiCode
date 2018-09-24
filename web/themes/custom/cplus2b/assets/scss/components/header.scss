@@ -61,7 +61,7 @@ header#navbar.navbar.navbar-default.container{
 
 
 // pour enlever le background de is-active
-ul.menu.menu--main.nav.navbar-nav li.active a.is-active{
+ul.menu.menu--main.nav.navbar-nav li.active a {
 	background: none;
 	color: $color3;
 	border-bottom: 1px solid $color3;

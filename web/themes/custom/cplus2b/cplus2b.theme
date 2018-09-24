@@ -22,3 +22,17 @@ function cplus2b_preprocess_block(&$vars) {
     }
   }
 }
+
+
+function  cplus2b_preprocess_node(&$vars) {
+  if($vars['node']->getType() === 'projet') {
+    $vars['back'] = isset($_SESSION['back']) ? $_SESSION['back'] : '/projets';
+  }
+}
+
+
+function cplus2b_preprocess_views_view(&$vars) {
+  if(strpos($vars['view']->id(), 'projets') !== FALSE) {
+    $_SESSION['back'] = \Drupal\Core\Url::fromRoute('view.' . $vars['view']->id() . '.' . $vars['view']->getDisplay()->display['id']);
+  }
+}
