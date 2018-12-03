@@ -32,7 +32,7 @@ function  cplus2b_preprocess_node(&$vars) {
 
 
 function cplus2b_preprocess_views_view(&$vars) {
-  if(strpos($vars['view']->id(), 'projets') !== FALSE) {
+  if(strpos($vars['view']->id(), 'projets_') !== FALSE) {
     $_SESSION['back'] = \Drupal\Core\Url::fromRoute('view.' . $vars['view']->id() . '.' . $vars['view']->getDisplay()->display['id']);
   }
 }
