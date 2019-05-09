@@ -1,6 +1,7 @@
 // première image
 .field.field--name-field-image.field--type-image.field--label-hidden.field--item img{
 	width:100%;
+  height: auto;
 	margin-bottom: 20px;
 }
 
@@ -39,5 +40,6 @@
 //images sup (supplémentaires)
 .field.field--name-field-images-sup.field--type-image.field--label-hidden.field--items img{
 	width: 100%;
+  height: auto;
 	margin-bottom: 20px;
 }

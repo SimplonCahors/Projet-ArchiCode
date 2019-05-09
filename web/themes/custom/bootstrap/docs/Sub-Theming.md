@@ -40,7 +40,7 @@ Once you've selected one of the above starterkits, here's how to install it:
 5. Rename `./THEMENAME/THEMENAME.theme`.
 6. Open `./THEMENAME/THEMENAME.info.yml` and change the name, description and
    any other properties to suite your needs. Make sure to rename the library
-   name as well:  `- THEMENAME/global-styling`.
+   extension name as well:  `THEMENAME/framework`.
 7. Rename the sub-theme configuration files, located at:
    `./THEMENAME/config/install/THEMENAME.settings.yml` and
    `./THEMENAME/config/schema/THEMENAME.schema.yml`.
@@ -61,7 +61,7 @@ enabled your starterkit, please refer to the starterkit's documentation page
 to customize.
 
 [Drupal Bootstrap]: https://www.drupal.org/project/bootstrap
-[Bootstrap Framework]: https://getbootstrap.com/docs/3.3/
+[Bootstrap Framework]: https://getbootstrap.com/docs/3.4/
 [jsDelivr CDN]: http://www.jsdelivr.com
 [Less]: http://lesscss.org
 [Sass]: http://sass-lang.com

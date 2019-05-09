@@ -12,9 +12,9 @@ div.items {
 //	animation-duration: 1s;
 }
 
-div.field--name-field-news-image img.img-responsive{
-	width:500px;
-	height:350px;
+div.field--name-field-news-image img{
+	width:500px !important;
+	height:350px !important;
 	object-fit: cover; //Permet de faire rentrer l'image dans le cadre carré
 }
 
