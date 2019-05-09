@@ -70,7 +70,7 @@ case $ENV in
 
 # Refresh translations
 notice 'Refresh translations'
-$DRUSH locale:check
+#$DRUSH locale:check
 $DRUSH locale:update
 
 # Rebuild permission
