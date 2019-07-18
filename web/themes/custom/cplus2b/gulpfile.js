@@ -1,42 +1,64 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var cleanCSS = require('gulp-clean-css');
-var minify = require('gulp-minify');
+"use strict";
 
-gulp.task('default', ['compress','sass'], function() {});
+// Load plugins
+const autoprefixer = require("autoprefixer");
+const cssnano = require("cssnano");
+const gulp = require("gulp");
+const plumber = require("gulp-plumber");
+const postcss = require("gulp-postcss");
+const rename = require("gulp-rename");
+const sass = require("gulp-sass");
+const uglify = require('gulp-uglify');
+var sourcemaps = require('gulp-sourcemaps');
 
-/***** lance gulp avec toutes les fonctions ****/
-gulp.task('watch', ['compress'], function() {
-	gulp.watch('assets/scss/*.scss', ['sass']);
-  gulp.watch('assets/scss/components/*.scss', ['sass']);
-  gulp.watch('assets/scss/component/*.scss', ['sass']);
-  gulp.watch('assets/scss/global/*.scss', ['sass']);
-  gulp.watch('assets/scss/jquery-ui/*.scss', ['sass']);
-	gulp.watch('assets/js/*.js', ['compress']);
-});
 
-/**** CSS optimisation *****/
-gulp.task('sass', function () {
-  return gulp.src('assets/scss/*.scss')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('dist/css'))
-    .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('dist/css')) /* necessaire pour refresh avec browser-sync **/
-});
- 
+// SASS task
+function scss() {
+  return gulp
+    .src("./assets/scss/style.scss", { sourcemaps: true })
+    .pipe(plumber())
+    .pipe(sourcemaps.init())
+    .pipe(sass({ outputStyle: "expanded" }))
+    .pipe(gulp.dest("./dist/css/"))
+    .pipe(rename({ suffix: ".min" }))
+    .pipe(postcss([autoprefixer(), cssnano()]))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest("./dist/css/"));
+}
 
-/***** Js opti *****/
-gulp.task('compress', ['sass'], function() {
-  gulp.src('assets/js/*.js')
-    .pipe(minify({
-        ext:{
-            src:'.js',
-            min:'.min.js'
-        },
-        exclude: ['tasks'],
-        ignoreFiles: ['.combo.js', '-min.js']
-    }))
-    .pipe(gulp.dest('dist/js'))
-});
+// Transpile, concatenate and minify scripts
+function js() {
+  return (
+    gulp
+      .src("./assets/js/app.js", { sourcemaps: true })
+      .pipe(sourcemaps.init())
+      .pipe(plumber())
+      .pipe(gulp.dest("./dist/js/"))
+      .pipe(uglify())
+      .pipe(rename({
+        basename: 'app',
+        suffix: '.min'
+      }))
+      .pipe(sourcemaps.write())
+      .pipe(gulp.dest("./dist/js/"))
+  );
+}
+
+// Watch files
+function watchFiles() {
+  gulp.watch("./assets/scss/**/*", scss);
+  gulp.watch("./assets/js/**/*", js);
+}
+
+// define complex tasks
+const build = gulp.series(gulp.parallel(scss, js));
+const watch = gulp.parallel(watchFiles);
+
+// export tasks
+exports.scss = scss;
+exports.js = js;
+exports.build = build;
+exports.watch = watch;
+exports.default = build;
 
 

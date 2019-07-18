@@ -1,6 +1,11 @@
 .menu.menu--footer.nav a{
 	color: $color3;
-	padding:40px;
+	padding: 10px;
+  text-align: center;
+
+  @media all and (min-width: 768px) {
+    padding: 40px;
+  }
 }
 
 .menu.menu--footer.nav a:hover{
@@ -16,5 +21,6 @@
 .footer.container{
 	display: flex;
 	justify-content: center;
+  align-items: center;
 	border-top: 1px solid $color3;
 }

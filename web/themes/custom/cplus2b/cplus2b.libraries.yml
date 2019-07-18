@@ -1,9 +1,9 @@
 global-styling:
   css:
     theme:
-      dist/css/style.css: {}
+      dist/css/style.min.css: {}
   js:
-    dist/js/app.js: {}
+    dist/js/app.min.js: {}
   dependencies:
   - core/jquery
   - core/jquery.once

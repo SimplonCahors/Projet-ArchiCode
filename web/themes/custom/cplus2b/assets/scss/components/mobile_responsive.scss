@@ -127,7 +127,11 @@
 	/******************** PAGE AGENCE ********************************/ 
 	//le sous-menu
 	ul.menu--menu-agence li{
-		width:25%;
+    display: inline-block;
+    @media all and (min-width: 768px) {
+      width:25%;
+      display: block;
+    }
 	}
 	ul.menu--menu-agence li a {
 		width: 100%;

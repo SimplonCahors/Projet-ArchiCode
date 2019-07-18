@@ -10,6 +10,10 @@
 	text-align: left;
 }
 
+.field.field--name-field-bloc-gauche.field--type-text-long.field--label-hidden.field--item {
+  margin-bottom: 0 !important;
+}
+
 //bloc gauche
 .field.field--name-field-bloc-gauche.field--type-text-long.field--label-hidden.field--item p{
 	padding-top: 20px;
@@ -17,24 +21,40 @@
 	border-top: 2px solid $color3;
 }
 
-.field.field--name-field-bloc-gauche.field--type-text-long.field--label-hidden.field--item{
-	width: 30%;
+@media all and (min-width: 768px) {
+  .field.field--name-field-bloc-gauche.field--type-text-long.field--label-hidden.field--item {
+    width: 40%;
+  }
+
+  .field.field--name-field-bloc-droite.field--type-text-long.field--label-hidden.field--item {
+    width: 60%;
+  }
 }
+
+@media all and (min-width: 1024px) {
+  .field.field--name-field-bloc-gauche.field--type-text-long.field--label-hidden.field--item {
+    width: 30%;
+  }
+
+  .field.field--name-field-bloc-droite.field--type-text-long.field--label-hidden.field--item {
+    width: 70%;
+  }
+}
+
+.page-node-type-projet .deuxblocs{
+  margin-bottom: 30px;
+  display:flex;
+  justify-content:space-between;
+
+  @media all and (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+
 
 //bloc droit
 .field.field--name-field-bloc-droite.field--type-text-long.field--label-hidden.field--item p{
 	padding-top: 20px;
-}
-
-.field.field--name-field-bloc-droite.field--type-text-long.field--label-hidden.field--item {
-	width: 70%;
-}
-
-//bloc contenant le bloc droit et le bloc gauche
-.deuxblocs{
-	margin-bottom: 30px;
-	display:flex;
-	justify-content:space-between;
 }
 
 //images sup (supplémentaires)
