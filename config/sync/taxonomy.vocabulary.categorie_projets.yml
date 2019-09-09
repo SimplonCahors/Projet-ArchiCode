@@ -5,5 +5,4 @@ dependencies: {  }
 name: 'Catégorie Projets'
 vid: categorie_projets
 description: ''
-hierarchy: 0
 weight: 0
