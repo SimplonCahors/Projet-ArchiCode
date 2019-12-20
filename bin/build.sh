@@ -34,8 +34,8 @@ notice 'Run updb'
 $DRUSH updb -y
 
 # Run the entities updates
-notice 'Run entities updates'
-$DRUSH updb --entity-updates -y
+# notice 'Run entities updates'
+# $DRUSH updb --entity-updates -y
 
 # Import config
 notice 'Import configuration'
