@@ -21,3 +21,5 @@
 /log/
 /dumps/
 .DS_Store
+/.editorconfig
+/.gitattributes
