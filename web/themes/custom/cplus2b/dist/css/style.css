@@ -9139,11 +9139,6 @@ a.titre-projet:hover {
   transition: 0.5s;
 }
 
-div.items-projet .field--name-field-nom {
-  background: red;
-  z-index: 400;
-}
-
 .items-projet {
   width: 250px;
   height: 250px;

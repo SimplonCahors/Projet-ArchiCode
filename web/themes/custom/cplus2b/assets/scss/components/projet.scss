@@ -1,4 +1,4 @@
-// Page tous les projets 
+// Page tous les projets
 a.titre-projet{
 	background: rgba(255,255,255,0.6);
 	position: absolute;
@@ -34,12 +34,6 @@ a.titre-projet{
 a.titre-projet:hover{
 	opacity:1;
 	transition: 0.5s;
-}
-
-//pour le nom de la ville sur les accroches
-div.items-projet .field--name-field-nom{
-	background: red;
-	z-index: 400;
 }
 
 div.items-projet:hover{
