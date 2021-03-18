@@ -31,26 +31,3 @@ $settings['file_public_path'] = 'sites/default/files';
 $config['system.performance']['css']['preprocess'] = FALSE;
 $config['system.performance']['js']['preprocess'] = FALSE;
 
-/**
- * Solr server
- */
-$config['search_api.server.incognito_solr']['backend_config']['connector_config']['core'] = 'drupal-epmo-dev';
-
-/**
- * Mosaique FTP
- */
-$settings['ftp_mosaique'] = [
-  'host'      => 'ftp.musee-orsay.fr',
-  'port'      => 911,
-  'username'  => 'Inconito_FTP',
-  'password'  => 'mpBsTgZueD',
-  'path'      => '/Collection/',
-  'filename'  => 'audioguide.csv',
-];
-
-/**
- * Trusted hosts
- */
-//$settings['trusted_host_patterns'] = [
-//  '^dev-url\.local$'
-//];
