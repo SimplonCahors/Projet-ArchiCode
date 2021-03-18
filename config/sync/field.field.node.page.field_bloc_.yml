@@ -6,7 +6,14 @@ dependencies:
     - field.storage.node.field_bloc_
     - node.type.page
   module:
+    - allowed_formats
     - text
+third_party_settings:
+  allowed_formats:
+    basic_html: basic_html
+    full_html: full_html
+    restricted_html: '0'
+    plain_text: '0'
 id: node.page.field_bloc_
 field_name: field_bloc_
 entity_type: node

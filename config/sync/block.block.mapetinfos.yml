@@ -12,7 +12,7 @@ dependencies:
 id: mapetinfos
 theme: cplus2b
 region: content
-weight: 0
+weight: -1
 provider: null
 plugin: 'block_content:7078eb3d-f612-420e-b842-6fe84bdfd45a'
 settings:
