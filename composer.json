@@ -36,6 +36,7 @@
         "drupal/module_missing_message_fixer": "1.2",
         "drupal/pathauto": "^1.0",
         "drupal/redirect": "^1.2",
+        "drupal/swiftmailer": "^2.0",
         "drupal/webform": "^5.0@RC",
         "drush/drush": "^9.0.0",
         "webflo/drupal-finder": "^1.0.0",
