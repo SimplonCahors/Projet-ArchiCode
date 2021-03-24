@@ -24,6 +24,7 @@ $config['swiftmailer.transport']['smtp_credential_provider'] = 'swiftmailer';
 $config['swiftmailer.transport']['smtp_credentials']['swiftmailer']['username'] = 'no-reply@docteur-conso.fr';
 $config['swiftmailer.transport']['smtp_credentials']['swiftmailer']['password'] = "!.XMvT*3s%@'";
 
+
 /**
  * Disable automated cron
  */
