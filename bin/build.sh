@@ -23,7 +23,7 @@ info 'Enable maintenance mode'
 $DRUSH sset system.maintenance_mode 1;
 
 notice 'Run composer install'
-$COMPOSER install
+$COMPOSER install --no-interaction
 
 # Rebuild the registry in case some modules have been moved.
 notice 'Rebuild caches'
