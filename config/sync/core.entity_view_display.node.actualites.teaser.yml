@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.actualites.field_news_image
     - field.field.node.actualites.field_titre_actu
     - field.field.node.actualites.field_titre_de_l_actu
+    - image.style.teaser_ac
     - node.type.actualites
   module:
     - image
@@ -49,7 +50,7 @@ content:
     region: content
     label: hidden
     settings:
-      image_style: ''
+      image_style: teaser_ac
       image_link: ''
     third_party_settings: {  }
   field_titre_actu:

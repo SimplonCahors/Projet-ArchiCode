@@ -1,0 +1,17 @@
+uuid: 40513b42-edde-4dbb-bde4-af92b1abd439
+langcode: fr
+status: true
+dependencies:
+  module:
+    - focal_point
+name: teaser_ac
+label: 'Teaser actu'
+effects:
+  45bc057c-72a2-41f7-a718-6b0dfc098bc1:
+    uuid: 45bc057c-72a2-41f7-a718-6b0dfc098bc1
+    id: focal_point_scale_and_crop
+    weight: 2
+    data:
+      width: 500
+      height: 350
+      crop_type: focal_point

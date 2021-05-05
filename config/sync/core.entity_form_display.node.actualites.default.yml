@@ -12,7 +12,7 @@ dependencies:
     - image.style.thumbnail
     - node.type.actualites
   module:
-    - image
+    - focal_point
     - path
     - text
 id: node.actualites.default
@@ -57,10 +57,12 @@ content:
   field_news_image:
     weight: 122
     settings:
-      progress_indicator: throbber
       preview_image_style: thumbnail
+      offsets: '50,50'
+      progress_indicator: throbber
+      preview_link: false
     third_party_settings: {  }
-    type: image_image
+    type: image_focal_point
     region: content
   field_titre_actu:
     weight: 125

@@ -13,6 +13,7 @@ dependencies:
     - image.style.thumbnail
     - node.type.projet
   module:
+    - focal_point
     - image
     - path
     - text
@@ -56,16 +57,18 @@ content:
   field_image:
     weight: 12
     settings:
-      progress_indicator: throbber
       preview_image_style: thumbnail
+      offsets: '50,50'
+      progress_indicator: throbber
+      preview_link: false
     third_party_settings: {  }
-    type: image_image
+    type: image_focal_point
     region: content
   field_images_sup:
     weight: 15
     settings:
-      progress_indicator: throbber
       preview_image_style: thumbnail
+      progress_indicator: throbber
     third_party_settings: {  }
     type: image_image
     region: content

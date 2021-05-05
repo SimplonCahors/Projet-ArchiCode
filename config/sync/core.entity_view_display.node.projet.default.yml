@@ -10,6 +10,7 @@ dependencies:
     - field.field.node.projet.field_images_sup
     - field.field.node.projet.field_nom
     - field.field.node.projet.field_titre_du_projet
+    - image.style.page_image
     - node.type.projet
   module:
     - image
@@ -38,7 +39,7 @@ content:
     weight: 1
     label: hidden
     settings:
-      image_style: ''
+      image_style: page_image
       image_link: ''
     third_party_settings: {  }
     type: image
@@ -47,7 +48,7 @@ content:
     weight: 4
     label: hidden
     settings:
-      image_style: ''
+      image_style: page_image
       image_link: ''
     third_party_settings: {  }
     type: image

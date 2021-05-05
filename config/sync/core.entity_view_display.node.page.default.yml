@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.page.field_bloc_droit
     - field.field.node.page.field_image_
     - field.field.node.page.field_imagesup
+    - image.style.page_image
     - node.type.page
   module:
     - image
@@ -37,7 +38,7 @@ content:
     weight: 2
     label: hidden
     settings:
-      image_style: ''
+      image_style: page_image
       image_link: ''
     third_party_settings: {  }
     type: image
@@ -46,7 +47,7 @@ content:
     weight: 5
     label: hidden
     settings:
-      image_style: ''
+      image_style: page_image
       image_link: ''
     third_party_settings: {  }
     type: image

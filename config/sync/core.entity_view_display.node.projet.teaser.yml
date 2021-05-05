@@ -11,6 +11,7 @@ dependencies:
     - field.field.node.projet.field_images_sup
     - field.field.node.projet.field_nom
     - field.field.node.projet.field_titre_du_projet
+    - image.style.teaser_projet
     - node.type.projet
   module:
     - image
@@ -26,7 +27,7 @@ content:
     region: content
     label: hidden
     settings:
-      image_style: ''
+      image_style: teaser_projet
       image_link: content
     third_party_settings: {  }
   field_nom:
