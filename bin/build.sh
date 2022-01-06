@@ -46,11 +46,11 @@ notice 'Run post deploy actions'
 case $ENV in
     dev)
         # Enable devtools
-        $DRUSH en -y devel kint;
+        #$DRUSH en -y devel kint;
     ;;
     staging)
         # Disable devtools
-        $DRUSH pm-uninstall -y devel devel_generate kint;
+        #$DRUSH pm-uninstall -y devel devel_generate kint;
 
         # Enable dblog.
         $DRUSH en -y dblog;
@@ -58,7 +58,7 @@ case $ENV in
     ;;
     prod)
         # Disable devtools
-        $DRUSH pm-uninstall -y devel devel_generate kint;
+        #$DRUSH pm-uninstall -y devel devel_generate kint;
 
         # Enable syslog.
         $DRUSH pm-uninstall -y dblog;
