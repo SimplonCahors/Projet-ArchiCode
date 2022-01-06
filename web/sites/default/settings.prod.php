@@ -5,6 +5,7 @@
  */
 $settings['file_public_path'] = 'sites/default/files';
 //$settings['file_private_path'] = '../private-files';
+$settings["config_sync_directory"] = '../config/sync';
 
 /**
  * Enable CSS and JS aggregation.

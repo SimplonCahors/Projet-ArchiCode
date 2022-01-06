@@ -17,6 +17,13 @@ case $ENV in
         exit 1;
 esac
 
+# Backup BDD
+if [ $ENV == "prod" ]; then
+  notice 'Backup database'
+  mkdir -p $ROOT/data
+  $DRUSH sql-dump --gzip > $ROOT/data/deploy-dump-backup.sql.gz
+fi
+
 # Put the site offline for visitors.
 cd $ROOT
 info 'Enable maintenance mode'
